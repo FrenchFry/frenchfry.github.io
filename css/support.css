@@ -1,0 +1,295 @@
+body {
+	background-color: #f5f5f5;
+}
+
+.support .support_link .title {
+	margin-top: 100px;
+	font-size: 30px;
+	text-align: center;
+}
+
+.support .support_link .subtitle {
+	margin: auto;
+	margin-top: 25px;
+	margin-bottom: 65px;
+	text-align: center;
+	width: 600px;
+}
+
+.support .support_link .actions {
+	margin: 50px auto 100px auto;
+	text-align: center;
+}
+
+.support .support_link ul {
+	margin: 0;
+	padding: 0;
+}			
+
+.support .support_link .actions li {
+	list-style-type: none;
+	display: inline-block;
+	background-color: white;
+	border: 1px solid #c7c7c7;
+	border-radius: 30px;
+	margin-left: 43px;
+	line-height: 30px;
+	padding: 10px 30px;
+}
+			
+.support .support_link .actions a:first-child li {
+	margin-left: 0;
+}
+
+.support .support_link .actions .sprites_icon {
+	right: 5px;
+	position: relative;
+}
+
+.support .support_link .actions .sprite-book {
+	top: 4px;
+}
+
+.support .support_link .actions .sprite-magnifyer {
+	top: 2px;
+}
+
+.support .support_link .actions .sprite-email {
+	top: 0px;
+}
+
+.support .content {
+	background-color: #fbfbfb;
+	box-shadow: 0 0 3px 0 #dbdbdb;
+	border-bottom: 1px solid rgba(255,255,255,0.4);
+	border-top: 1px solid rgba(255,255,255,0.4);
+	clear: both;
+	padding-bottom: 40px;
+}
+
+.support #faq {
+	width: 1000px;
+	margin: 0 auto;
+}
+
+#faq .title {
+	margin-top: 90px;
+	font-size: 28px;
+	text-shadow: 0 1px 0 white;
+	margin-bottom: 20px;
+}
+
+#faq .faq_title {
+	margin-top: 40px;
+	margin-bottom: 10px;
+	font-size: 120%;
+}
+
+#faq .faq_response {
+	background-color: #f5f5f5;
+	border-radius: 2px;
+	padding: 20px;
+}
+
+.support hr {
+	width: 300px;
+	margin: 60px auto;
+	border-top-color: #ebebeb;
+}
+
+.support #contact_us {
+	width: 1000px;
+	margin: 0 auto;
+}
+
+#bug_submit_form {
+	width: 740px;
+	height: 354px;
+	margin: 60px auto 20px auto;
+	border-radius: 3px;
+	position: relative;
+}
+
+#bug_submit_form #bg_airmail_left, #bg_airmail_right {
+	background-image: url("/img/support_airmail.png");
+	width: 10px;
+	height: 355px;
+	position: absolute;
+	left: 0;
+}
+
+#bug_submit_form #bg_airmail_right {
+	left: inherit;
+	right: 0;
+	background-position-x: 10px;
+}
+
+#bug_submit_form form {
+	width: auto;
+	position: relative;
+	background: inherit;
+	height: inherit;
+    margin: 0px 10px;
+    padding: 20px 40px;
+    background: none repeat scroll 0% 0% #dcdcdc;
+    border: medium none;
+    box-shadow: none;
+    background-color: #f5f5f5;
+    height: 315px;
+}
+
+#bug_submit_form .title {
+	font-size: 28px;
+	text-shadow: 0 1px 0 white;
+	margin-bottom: 12px;
+	margin-top: 8px;
+}
+
+#bug_submit_form .subtitle {
+	color: #8c8c8c;
+	margin-bottom: 30px;
+	font-size: 18px;
+}
+	
+#bug_submit_form img {
+	position: absolute;
+	right: 40px;
+	top: 13px;
+}
+
+#bug_submit_form textarea {
+	height: 150px;
+	width: 613px;
+	margin-bottom: 15px;
+	background-color: white;
+	resize: none;
+	line-height: 150%;
+	padding: 10px 10px 0 10px;
+	border-radius: 3px;
+	overflow: auto;
+	vertical-align: top; 
+}
+
+#bug_submit_form #translate textarea {
+	height: 120px;
+	width: 613px;
+	margin-bottom: 15px;
+	background-color: white;
+	resize: none;
+	line-height: 150%;
+	padding: 10px 10px 0 10px;
+	border-radius: 3px;
+	overflow: auto;
+	vertical-align: top; 
+}
+
+#bug_submit_form .feedback input, textarea {
+	background: none;
+	box-shadow: none;
+	border: 1px solid #cccccc;
+	font-size: 15px;
+}
+
+#bug_submit_form .feedback {
+	border-radius: 0px !important;
+	-webkit-border-radius: 0px !important;
+}
+
+#bug_submit_form #email {
+	width: 250px;
+	padding: 0 10px;
+	height: 30px;
+	margin-bottom: 10px;
+	background-color: white;
+	border-radius: 3px;
+}
+	
+#bug_submit_form .feedback #submit {
+	position: absolute;
+	height: 32px;
+	width: 127px;
+	border-radius: 2px;
+	background-color: #1ba1e2;
+	color: white;
+	border: 0px;
+	right: 45px;
+	float: right;
+}
+
+#bug_submit_form .alerts {
+	display: none;
+	text-align: center;
+	font-size: 18px;
+	margin-top: 50px;
+}
+
+#bug_submit_form .alerts p {
+	margin: 90px 0 0 0 !important;
+}
+
+footer {
+	padding-top: 40px;
+}
+
+.support-email {
+  text-align:center;
+  margin-top: 110px;
+  color: #333333;
+  font-size: 1.5em;
+  line-height: 1.5em;
+}
+
+
+@media (max-width:480px)  {
+  .support #faq {
+    width: 96%;
+    padding: 8px;
+  }
+
+  .support .support_link .title {
+    font-size: 1.3em;
+    margin-top: 30px;
+  }
+  .support .support_link .actions {
+    margin: 20px;
+  }
+  .actions a, .actions li {
+    display: block;
+    text-align: center;
+    margin: 4px;
+  }
+  .support .support_link .actions li {
+    margin-left: 0px;
+  }
+
+  #faq .title {
+    margin-top: 20px;
+  }
+
+  .support #contact_us {
+    width: auto;
+  }
+  #bug_submit_form {
+    width: auto;
+  }
+  #bug_submit_form img {
+    opacity: 0.2;
+  }
+  #bug_submit_form form {
+    height: auto;
+  }
+
+  #bug_submit_form #bg_airmail_left, #bg_airmail_right, #bug_submit_form {
+    height: 200px;
+  }
+
+  .support-email {
+    margin-top: 32px;
+    font-size: 1.2em;
+  }
+
+  .support .support_link .subtitle {
+    width: 94%;
+  }
+
+}

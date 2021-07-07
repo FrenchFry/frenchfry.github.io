@@ -1,0 +1,14 @@
+#main {
+	width: 1000px;
+	margin: 50px auto 100px auto;
+}
+
+#main h2 {
+	margin-top: 40px;
+}
+
+@media (max-width:480px)  {
+  #main {
+    width: 94%;
+  }
+}

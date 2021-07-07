@@ -1,0 +1,164 @@
+body {
+	min-width: 800px;
+	background-color: #f5f5f5;
+}
+
+blockquote {
+	border-left: 3px solid #1ba1e2;
+	padding-left: 30px;
+	font-style: italic;
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+
+blockquote p {
+	color: #aaa;
+	padding: 10px 0px;
+	
+}
+
+.header_background {
+	height: 300px;
+	background-image: url('/img/blog_background_header.jpg');
+	-webkit-background-size: cover;
+	background-size: cover;
+}
+
+header #frenchfry_logo {
+	background-image: url("/img/frenchfry_logo_white.png");
+}
+
+header .container {
+	border-bottom:1px solid rgba(255, 255, 255, 0.5);
+}
+
+header .menu li a {
+	color: white;
+	text-decoration: none;
+}
+	
+header .menu .active a {
+	font-weight: bold;
+	color: #ffffff;
+}
+
+header .menu a:hover,
+header .menu .under_menu a:hover {
+	color: #ffffff;
+}
+
+.mojo {
+	font-size: 36px;
+	margin: 90px auto 0 auto;
+	width: 800px;
+	text-align: center;
+	color: white;
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+
+.article_header {
+	border: 0px;
+	height: inherit;
+	margin: 0;
+	padding: 0;
+}
+
+.article_title {
+	font-size: 30px;
+}
+
+.article_title a, .article_title a:visited {
+}
+
+.article_title a:hover {
+	color: #1ba1e2;
+}
+
+.article_date {
+	color: #aaa;
+	margin-top: 7px;
+}
+
+h1 {
+	margin: 70px 0 0 0;
+	text-align: inherit;
+	font-weight: normal;
+	text-shadow: none;
+}
+
+h3 {
+	margin: 40px 0 0 0;
+}
+
+
+p {
+	color: #333333;
+	font-size: 18px;
+}
+
+article {
+	width: 800px;
+	margin: 0 auto;
+	padding-bottom: 20px;
+	margin-bottom: 50px;
+	border-bottom: 1px solid #d8dcdf;
+}
+
+article img {
+	display: block;
+	max-width: 800px;
+	margin: 0 auto;
+}
+
+.article_content {
+	font-family: Georgia, serif;
+	line-height: 1.56;
+}
+
+.article_content  a, .article_content a:visited {
+	color: #1ba1e2;
+}
+
+.article_content a:hover {
+	color: #333333;
+}
+
+@media (max-width:480px)  {
+  
+  body {
+    min-width: 100%;
+    width: 100%;
+  }
+
+  header .container {
+    width:94%;
+    min-width:94%;
+    padding: 8px;
+  }
+
+  .mojo {
+    width: 94%;
+    font-size: 1.3em;
+    margin: 0 auto;
+    margin-top: 45px;
+  }
+
+  .header_background {
+    height: 180px;
+  }
+
+  article {
+    padding: 8px;
+    width: auto;
+    text-align: justify;
+    margin-bottom: 20px;
+  }
+
+  article img {
+    width: 100%;
+  }
+
+  .article_title, h1.article_title {
+      font-size: 1.4em;
+      margin-top: 40px;
+  }
+}

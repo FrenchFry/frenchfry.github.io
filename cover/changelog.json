@@ -1,0 +1,262 @@
+{
+  "release":[
+    {
+      "version":"3.7.2",
+      "sub_version":"Windows & Windows Phone",
+      "date":"2021-05-11",
+      "notes":"Optimizing partial refresh\r\nFixed keyboard focus issue when reading\r\nImproved PDF performance\r\nGenerate thumbnails only for the currently displayed folder"
+    },
+    {
+      "version":"3.7.1",
+      "sub_version":"Windows & Windows Phone",
+      "date":"2021-04-20",
+      "notes":"Fixed an issue with epub containing images in svgs"
+    },
+     {
+        "version":"3.7.0",
+        "sub_version":"Windows & Windows Phone",
+        "date":"2021-04-06 18:00:00",
+        "notes":"Tiles UI got a revamp to make it nicer and easier to find specific books and series when no thumbnails (aka cloud storage based libraries)\r\nYou can now refresh a folder without refreshing the whole library\r\nCover now handles epub comic books better (order of pages fixed)\r\nCreated a setting to hide the circular progress bar\r\nVarious bugfixes and tweaks"
+     },
+     {
+        "version":"3.6.5",
+        "sub_version":"Windows & Windows Phone",
+        "date":"2020-05-24 09:42:28",
+        "notes":"Restoring previous in app purchase policy next to Microsoft fixing the IAP issues"
+     },
+     {
+        "version":"3.6.4",
+        "sub_version":"Windows & Windows Phone",
+        "date":"2020-05-05 00:19:08",
+        "notes":"Displaying information message regarding broken in app purchase\r\nMaking temporarily the app free for everyone"
+     },
+     {
+        "version":"3.6.1\/3.6.2",
+        "sub_version":"Windows & Windows Phone",
+        "date":"2020-04-26 00:18:36",
+        "notes":"Fixed windows 10 mobile crash issue\r\nImproved read toolbar on phone"
+     },
+     {
+        "version":"3.6.0",
+        "sub_version":"Windows & Windows Phone",
+        "date":"2020-03-19 10:34:37",
+        "notes":"Fixed Google Drive issues\r\nFixed in app purchase issues\r\nImproved the \"add folder\" UI to welcome new hosting types in the future\r\nUpdated min SDK version\r\nFixed some UI issues"
+     },
+     {
+        "version":"3.5.919",
+        "sub_version":"Windows & Windows Phone",
+        "date":"2019-05-08 11:50:00",
+        "notes":"Fixing in-app purchase for some regions (Asia\/Australia)"
+     },
+     {
+        "version":"3.5.910",
+        "sub_version":"Windows & Windows Phone",
+        "date":"2019-02-12 12:00:00",
+        "notes":"Fixed the bug of the app not able to display images.\r\nDropping (very) temporarly webp support because it breaks the app"
+     },
+     {
+        "version":"3.5.906",
+        "sub_version":"Windows & Windows Phone",
+        "date":"2019-02-07 12:00:00",
+        "notes":"Fixed several bugs"
+     },
+     {
+        "version":"3.5.901",
+        "sub_version":"Windows & Windows Phone",
+        "date":"2018-11-02 16:00:00",
+        "notes":"Allow fullscreen for tablets or tablet mode\r\nImproved the UI for online only content"
+     },
+     {
+        "version":"3.5.898",
+        "sub_version":"Windows & Windows Phone",
+        "date":"2018-04-25 00:00:00",
+        "notes":"Now supporting OneDrive shared folders\r\nAdded keyboard shortcuts (ctrl + pageup\/down) to go to prev\/next comic book\r\nFixed various bug"
+     },
+     {
+        "version":"3.5.889",
+        "sub_version":"Windows & Windows Phone",
+        "date":"2018-03-13 00:00:00",
+        "notes":"Added Google Drive compatibility\r\nMigrated OneDrive LiveSDK (soon to be deprecated) to GraphAPI"
+     },
+     {
+        "version":"3.4.872",
+        "sub_version":"Windows & Windows Phone",
+        "date":"2017-11-27 00:00:00",
+        "notes":"You can now download folders from Dropbox\/Onedrive\r\nFixed bugs"
+     },
+     {
+        "version":"3.4.862",
+        "sub_version":"Windows & Windows Phone",
+        "date":"2017-07-03 00:00:00",
+        "notes":"Migrated to dropbox api v2 to maintain compatibility"
+     },
+     {
+        "version":"3.4.857",
+        "sub_version":"Windows & Windows Phone",
+        "date":"2017-06-05 10:00:00",
+        "notes":"Added \"night filter\" mode in Night mode menu\r\nImproved comic book order in shelves\r\nFixed bugs"
+     },
+     {
+        "version":"3.4.846",
+        "sub_version":"Windows & Windows Phone",
+        "date":"2017-01-03 09:00:00",
+        "notes":"Added keyboard shortcuts for various commands (Desktop & Tablet)\r\nNow showing notifications for various commands\r\nCreated setting for smart renaming"
+     },
+     {
+        "version":"3.3.836",
+        "sub_version":"Windows & Windows Phone",
+        "date":"2016-10-09 20:00:00",
+        "notes":"Improved PDF image quality\r\nThumbnail generation now doesn't hang on a file for a long time"
+     },
+     {
+        "version":"3.2.833",
+        "sub_version":"Windows & Windows Phone",
+        "date":"2016-06-12 10:00:00",
+        "notes":"Pin folders on Start Screen, open 7z files\r\nVarious bug fixes and perf improvements\r\nAdded Chinese translation (thanks to bearpool, gmdzy)"
+     },
+     {
+        "version":"3.1.818\/820",
+        "sub_version":"Windows & Windows Phone",
+        "date":"2016-04-17 10:00:00",
+        "notes":"Improve startup performance\r\nFixing bugs in in-app purchases"
+     },
+     {
+        "version":"3.0.802",
+        "sub_version":"Windows & Windows Phone",
+        "date":"2016-03-21 14:00:00",
+        "notes":"Universal Windows Platform version!\r\nNumerous bug fixes and improvements."
+     },
+     {
+        "version":"2.6.674",
+        "sub_version":"Windows & Windows Phone",
+        "date":"2016-01-20 19:00:00",
+        "notes":"Added syncing between devices (Beta feature for paid users)\r\nVarious bugfixes"
+     },
+     {
+        "version":"2.5.647\/648\/649",
+        "sub_version":"Windows & Windows Phone",
+        "date":"2015-12-17 00:00:00",
+        "notes":"Fix an InApp Purchase issue\r\nBugfixes & improved page order sorting"
+     },
+     {
+        "version":"2.5.634",
+        "sub_version":"Windows & Windows Phone",
+        "date":"2015-11-27 16:00:00",
+        "notes":"Added Kid's Corner compatibility (Phone)\r\nAdded reader circle progress bar\r\nImproved reader performance\r\nBig fixes and small improvements"
+     },
+     {
+        "version":"2.4.611",
+        "sub_version":"Windows & Windows Phone",
+        "date":"2015-09-30 10:18:00",
+        "notes":"Added night mode\r\nAdded feature to hide\/delete comics\r\nNow supporting CBT archives\r\nBugfixes\r\nAdded Portuguese language (thanks to Fernando M., Lucas S.P.)"
+     },
+     {
+        "version":"2.3.600",
+        "sub_version":"Windows & Windows Phone",
+        "date":"2015-07-31 00:00:00",
+        "notes":"Now supporting WEBP images\r\nImproved reading performance\r\nAdded Favorites feature (Windows)\r\nBug fixes and UI\/UX improvements\r\nAdded German language thanks to Roland W."
+     },
+     {
+        "version":"2.2.565",
+        "sub_version":"Windows",
+        "date":"2015-06-26 00:00:00",
+        "notes":"Fixed various bugs and crashes"
+     },
+     {
+        "version":"2.2.560",
+        "sub_version":"Windows",
+        "date":"2015-06-10 16:00:00",
+        "notes":"Fixed various bugs and crashes\r\nAdded languages : Polish (thanks to Marcin M.), Italian (thanks to Guido P., Leonardo Z., Filippo M.), Russian is back (thanks to \u0410\u043d\u0442\u043e\u043d \u0417.), Spanish is back (thanks to @dza20)\r\nFrance only: Added store with few free books (partnership with bdzmag.com). If you want to know more or post your own book, email us."
+     },
+     {
+        "version":"2.2.559",
+        "sub_version":"Windows Phone",
+        "date":"2015-06-10 16:00:00",
+        "notes":"Fixed various bugs and crashes\r\nAdded languages : Polish (thanks to Marcin M.), Italian (thanks to Guido P., Leonardo Z., Filippo M.), Russian is back (thanks to \u0410\u043d\u0442\u043e\u043d \u0417.), Spanish is back (thanks to @dza20)"
+     },
+     {
+        "version":"2.1.513",
+        "sub_version":"Windows & Windows Phone",
+        "date":"2015-03-12 16:00:00",
+        "notes":"Reinstates the missing localizations."
+     },
+     {
+        "version":"2.1.511",
+        "sub_version":"Windows & Windows Phone",
+        "date":"2015-03-10 10:00:00",
+        "notes":"Added OneDrive and Dropbox integration\r\nAdded offline reading for network books\r\nBugfixes and minor improvements"
+     },
+     {
+        "version":"2.0.426",
+        "sub_version":"Windows",
+        "date":"2014-12-17 00:00:00",
+        "notes":"Improved PDF compatibility\r\nReplaced \"unread\" by \"to read\" smart view\r\nAdded auto-crop and vertical stacking settings\r\nBug fixes and minor improvements"
+     },
+     {
+        "version":"2.0.424",
+        "sub_version":"Windows Phone",
+        "date":"2014-12-12 00:00:00",
+        "notes":"Fixes an issue with the in app purchase."
+     },
+     {
+        "version":"2.0.423",
+        "sub_version":"Windows Phone",
+        "date":"2014-12-11 00:00:00",
+        "notes":"Added new languages (Japanese, Dutch)\r\nMinor bug fixes"
+     },
+     {
+        "version":"2.0.416",
+        "sub_version":"Windows Phone",
+        "date":"2014-12-08 00:00:00",
+        "notes":"Initial Windows Phone release"
+     },
+     {
+        "version":"1.4.316",
+        "sub_version":"Windows",
+        "date":"2014-08-28 00:00:00",
+        "notes":"Automatic single\/double page layout\nImproved performance and start speed\nCustomisable shelf background\nGreatly improved epub reader performance\nLibrary can now be refreshed automatically or manually\nAdded Slovak language (thanks to Mari\u00e1n Kali\u0161)"
+     },
+     {
+        "version":"1.3.264",
+        "sub_version":"Windows",
+        "date":"2014-07-09 00:00:00",
+        "notes":"Added 3 new languages: Dutch (thanks to tom@itm.be), Japanese (thanks to kyosyo@msn.com), Serbian (thanks to \u0421\u0430\u0448\u0430 \u041f\u0435\u0442\u0440\u043e\u0432\u0438\u045b)\r\nScrolling offsets are now preserved in book and shelves\r\nSeveral bugfixes"
+     },
+     {
+        "version":"1.3.252",
+        "sub_version":"Windows",
+        "date":"2014-06-27 00:00:00",
+        "notes":"Added new display mode: Two pages with cover\nAdded 2 new languages : Spanish (thanks to @dza20) and Russian (thanks to gdemotchkine@gmail.com)\nImproved PDF rendering quality\nImproved compatibility with some cbr\/cbz files\nImproved snapped views\nAdded sharing features\nSeveral bugfixes and UI improvments"
+     },
+     {
+        "version":"1.2.216",
+        "sub_version":"Windows",
+        "date":"2014-05-01 00:00:00",
+        "notes":"Improved Windows 8.1 integration (search)\nAdded smart views to display only unread\/recently read,...\nAdded a global \"manga mode\" option in the settings\nNow sorting files and folders by name and option in the settings\nImproving reading keyboard navigation\nImproved large libraries importing performance\nVarious bugfixes"
+     },
+     {
+        "version":"1.1.187",
+        "sub_version":"Windows",
+        "date":"2014-02-14 00:00:00",
+        "notes":"Improved Windows 8.1 integration (pinning\/live tile\/search)\nImproved library management (set as read\/unread on multiple files)\nImproved cbr packages handling\nFixed layout issues for manga mode\nVarious bugfixes"
+     },
+     {
+        "version":"1.0.1.144",
+        "sub_version":"Windows",
+        "date":"2013-12-05 00:00:00",
+        "notes":"Improves listing from network drive\nVarious bug fixes"
+     },
+     {
+        "version":"1.0.0.136",
+        "sub_version":"Windows",
+        "date":"2013-11-23 00:00:00",
+        "notes":"Fixes InApp Purchase issue"
+     },
+     {
+        "version":"1.0.0.135",
+        "sub_version":"Windows",
+        "date":"2013-11-23 00:00:00",
+        "notes":"Initial release"
+     }
+  ]
+}

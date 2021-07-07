@@ -1,0 +1,281 @@
+@font-face {
+    font-family: 'GillSans';
+    src: url('/font/GillSans.eot');
+    src: url('/font/GillSans.eot?#iefix') format('embedded-opentype'),
+         url('/font/GillSans.ttf') format('truetype'),
+         url('/font/GillSans.svg#lobster') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+h1, h2 {
+	font-size: 30px;
+	margin: 30px auto 20px auto;
+	text-align: center;
+	font-weight: normal;
+	color: #161616;
+	font-family: GillSans, Arial, sans-serif;
+}
+
+h2 {
+	color: #c10606;
+	text-align: left;
+}
+
+#main {
+	font-size: 17px;
+	line-height: 170%;
+	color: #666;
+}
+
+header {
+	position: fixed;
+	top: 0;
+	right: 0;
+	left: 0;
+	z-index: 999;
+	font-weight: lighter;
+}
+
+header .container {
+	width: 1000px;
+	margin: 0 auto;
+	border-bottom:1px solid rgba(216, 220, 223, 0.2);
+}
+
+header #frenchfry_logo {
+	background-image: url("/img/frenchfry_logo_white.png");
+}
+
+header .menu li a,
+header .menu .under_menu a {
+	color: rgba(255, 255, 255, 0.8);
+	text-decoration: none;
+}
+
+header .menu .under_menu a {
+	color: rgba(255, 255, 255, 1.0);
+}
+	
+header .menu .active a {
+	font-weight: bold;
+	color: #ffffff;
+}
+
+header .menu a:hover,
+header .menu .under_menu a:hover {
+	color: #ffffff;
+}
+
+.header_background {
+	background-image: url("/img/cover_background_header.jpg");
+	height: 500px;
+	width: 100%;
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: -1;
+	background-size: cover;
+	text-align: left;
+}
+
+.header_content {
+	position: fixed;
+	top:100px;
+	width: 100%;
+	height: 300px;
+	margin: 0 auto;
+}
+
+.header_content #content {
+	position: relative;
+	width: 1000px;
+	height: 100%;
+	margin: 0 auto;
+}
+
+.header_content #logo {
+	position: absolute;
+	left: 610px;
+	top: 70px;
+}
+
+.header_content #windows_store {
+	position: absolute;
+	left: 610px;
+	top:160px;
+}
+
+#main {
+	margin-top: 450px;
+	background-color: white;
+	position: relative;
+}
+
+#presentation_block {
+	width: 800px;
+	margin: 0 auto;
+	text-align: center;
+	padding-bottom: 30px;
+}
+
+#presentation_block #logo {
+	margin-top: -75px;
+	border: 1px solid white;
+}
+
+.store_buttons {
+	width: 100%;
+	text-align: center;
+	margin: 50px auto 30px auto;
+}
+
+.store_button {
+	margin: 0 20px;
+}
+
+.device_screenshot {
+	float: left;
+}
+
+#presentation_tablet, #presentation_cloud {
+	background-color: #f7f7f7;
+}
+
+#presentation_tablet_content, #presentation_cloud_content {
+	margin: 0 auto;
+	padding: 80px 0;
+	width: 1000px;
+}
+
+#presentation_tablet_content .device_screenshot, #presentation_cloud_content .unlimited_comics {
+	float: left;
+	margin-right: 40px;
+}
+
+#presentation_cloud_content .unlimited_comics {
+	margin-top: 73px;
+}
+
+#presentation_tablet_content h2, #presentation_cloud_content h2 {
+	margin-top: 70px;
+}
+
+#presentation_cloud_content h2, #presentation_cloud_content p {
+	margin-left: 470px;
+}
+
+#presentation_phone {
+	margin: 0 auto;
+	padding: 40px 0 0 0;
+	width: 1000px;
+}
+
+#presentation_phone h2 {
+	margin-top: 100px;
+}
+
+#presentation_phone .device_screenshot {
+	float: right;
+}
+
+#features_block {
+	color: #ffffff;
+	background: #c10606;
+	clear: both;
+}
+
+#features_block h1 {
+	color: #ffffff;
+	margin-bottom: 40px;
+}
+
+#features_block_content {
+	margin: 0 auto;
+	padding: 40px 0;
+	width: 1000px;
+}
+
+#features_left {
+	width: 460px;
+	float: left;
+}
+
+#features_right {
+	float: right;
+	width: 460px;
+}
+
+#features_block_content ul {
+    list-style: none;
+    line-height: 1.7em;
+}
+
+#features_block_content ul li:before {
+    content: "";
+    line-height: 1.7em;
+    width: .3em;
+    height: .3em;
+    background-color: rgba(255, 255, 255, 0.5);
+    float: left;
+    margin: .6em .6em 0 -1em;
+    border-radius: 50%;
+}
+
+@media (max-width:480px)  {
+  
+  header .container {
+    width:94%;
+    min-width:94%;
+    padding: 8px;
+  }
+
+  .header_background {
+
+  }
+
+  #main {
+    margin-top: 260px;
+  }
+
+  #presentation_block {
+    width: 94%;
+  }
+  #presentation_phone, #presentation_tablet_content, #presentation_cloud_content {
+    width: 94%;
+  }
+  #features_block_content {
+    width: 94%;
+  }
+
+  #features_left, #features_right {
+    float:none;
+    width: auto;
+  }
+
+  #presentation_tablet_content .device_screenshot,
+  #presentation_cloud_content .unlimited_comics,
+  #presentation_phone .device_screenshot {
+    margin-right: 0px;
+    float:none;
+  }
+
+  #presentation_tablet_content, #presentation_cloud_content {
+    padding-top: 30px;
+  }
+
+  #presentation_tablet_content h2, #presentation_cloud_content h2, #presentation_phone h2 {
+    margin-top: 20px;
+  }
+
+  img.device_screenshot {
+    width: 100%;
+    display:block;
+    float:none;
+    margin:0 auto;
+
+  }
+
+  h1, h2 {
+    font-size: 1.4em;
+}

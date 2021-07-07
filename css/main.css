@@ -1,0 +1,518 @@
+@font-face {
+    font-family: 'Lobster';
+    src: url('/font/lobster.eot');
+    src: url('/font/lobster.eot?#iefix') format('embedded-opentype'),
+         url('/font/lobster.ttf') format('truetype'),
+         url('/font/lobster.svg#lobster') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'GillSans';
+    src: url('/font/GillSans.eot');
+    src: url('/font/GillSans.eot?#iefix') format('embedded-opentype'),
+         url('/font/GillSans.ttf') format('truetype'),
+         url('/font/GillSans.svg#lobster') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.hidden { 
+	display: none;
+	visibility: hidden;
+}
+
+a {
+	color: inherit;
+	text-decoration: inherit;
+}
+
+a:visited {
+	color: inherit;
+}
+
+a:hover {
+	color: #1ba1e2;
+}
+
+hr { display: block; 
+	height: 1px; 
+	border: 0; 
+	border-top: 1px solid #ccc; 
+	margin: 1em 0; 
+	padding: 0;
+	width: 300px;
+	margin: 60px auto;
+	border-top-color: #ebebeb;
+}
+
+body {
+	min-width: 1000px;
+	background-color: #eff2f5;
+	font-family: Arial, Helvetica, sans-serif;
+	color: #333333;
+	margin: 0;
+	font-size: 16px;
+	line-height: 150%;
+}
+
+img {
+	border: 0;
+}
+
+/*****************************/
+/*			Header			 */
+/*****************************/
+
+header .container {
+	margin: 0 auto;
+	height:43px;
+	width:1000px;
+ 	min-width:1000px;
+	padding-top:10px;
+	padding-bottom:20px;
+	border-bottom:1px solid #d8dcdf
+}
+
+header #frenchfry_logo {
+	width:200px;
+	background-image: url("/img/frenchfry_logo.png");
+	background-repeat: no-repeat;
+	height: 43px;
+	float: left;
+}
+
+header #frenchfry_logo a {
+	display: block;
+	width: 200px;
+	height: 43px;
+}
+
+header .menu {
+	float:right;
+	list-style:none;
+	font-size:18px;
+	margin:0;
+	padding:0
+}
+
+header .menu li {
+	padding:4px 12px;
+	margin:10px 0 0 30px;
+	float:left
+}
+
+header .menu li a {
+	color:#333;
+	text-decoration:none
+}
+	
+header .menu .under_menu a {
+	color:#b3b3b3
+}
+	
+header .menu .active a, 
+header .menu a:hover, 
+header .menu .under_menu a:hover {
+	color:#1ba1e2
+}
+
+header .menu .under_menu {
+	padding-left:10px;
+	margin-left:0
+}
+
+.centered {
+	max-width: 1000px;
+	margin: 0 auto;
+	width: 1000px;
+}
+
+h1 {
+	margin: 70px auto;
+	text-align: center;
+	font-weight: normal;
+/* 	text-shadow: 1px 1px 0px white; enlev� par Alexis le 28/12 � voir les effets de bords */
+}
+
+/*****************************/
+/*			Main			 */
+/*****************************/
+
+#main .projects {
+	padding-left: 0;
+	list-style: none;
+}
+
+#main .projects .project {
+	-webkit-font-smoothing: antialiased;
+	position: relative;
+	margin: 0px 0px 40px 0px;
+	color: #333333;
+	background-color: #ffffff;
+}
+
+#main .projects .project .hover {
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 100%;
+	background-color: rgba(0,0,0,0.70);
+	z-index: 100;
+	display: none;
+}
+
+#main .projects .project .buttons {
+	z-index: 101;
+	padding: 10px 20px;
+	border-radius: 2px;
+	background-color: #ffffff;
+	box-shadow: 0px 0px 15px black;
+	font-weight: bold;
+	text-shadow: none;
+	color: black;
+	position: absolute;
+}
+
+/********** Cover *************/
+
+#main .projects #cover {
+	height: 350px;
+	width: 1000px;
+	color: #ffffff;
+	background-image: url("/img/cover_home_background.jpg");
+}			
+
+#main .projects #cover .icon {
+	float: left;
+	margin-top: 123px;
+	margin-left: 575px;
+}
+
+#main .projects #cover .description {
+	clear: both;
+	font-size: 24px;
+	font-weight: normal;
+	font-family: Arial;
+	color: rgba(255,255,255,0.80);
+	margin-left: 575px;
+	width: 325px;
+	line-height: 35px;
+}
+
+#main .projects #cover .title {
+	float: left;
+	font-family: GillSans;
+	font-weight: normal;
+	margin-left: 20px;
+	margin-top: 140px;
+	margin-bottom: 25px;
+	font-size: 48px;
+}
+
+#main .projects #cover .buttons {
+	top: 153px;
+	left: 372px;
+}
+
+/********** Steed *************/
+
+#main .projects #steed {
+	float: left;
+	height: 350px;
+	width: 480px;
+	color: #ffffff;
+	background-image: url("/img/steed_home_background.jpg");
+	text-align: center;
+}			
+
+#main .projects #steed .icon {
+	margin-top: 55px;
+}
+
+#main .projects #steed .description {
+	font-size: 17px;
+	font-weight: normal;
+	font-family: Arial;
+	color: rgba(255,255,255,0.80);
+	margin-top: 10px;
+}
+
+#main .projects #steed .title {
+	font-family: GillSans;
+	font-weight: bold;
+	margin-top: 10px;
+	line-height: 40px;
+	font-size: 36px;
+}
+
+#main .projects #steed .buttons {
+	top: 153px;
+	left: 112px;
+}
+
+/********** Analyst *************/
+
+#main .projects #analyst {
+	float: right;
+	height: 350px;
+	width: 480px;
+	background-image: url("/img/analyst_home_background.png");
+	text-align: center;
+}
+
+#main .projects #analyst .hover {
+	background-color: rgba(0,0,0,0.80);
+}
+
+#main .projects #analyst .buttons {
+	top: 153px;
+	left: 112px;
+}
+
+#main .projects #analyst .icon {
+	margin-top: 60px;
+}
+
+#main .projects #analyst .description {
+	font-size: 17px;
+	font-weight: normal;
+	font-family: Arial;
+	color: rgba(0,0,0,0.80);
+	margin-top: 18px;
+}
+
+#main .projects #analyst .title {
+	font-family: Lobster;
+	color: #1a1a1a;
+	margin-top: 14px;
+	font-size: 36px;
+}
+
+.sprites_icon {
+  background: url('/img/sprites.png') no-repeat top left;
+  display: inline-block;
+}
+
+.sprite-book {
+  background-position: 0 0;
+  width: 14px;
+  height: 20px;
+}
+
+.sprite-email-16 {
+  background-position: 0 -30px;
+  width: 15px;
+  height: 11px;
+}
+
+.sprite-email {
+  background-position: 0 -51px;
+  width: 18px;
+  height: 12px;
+}
+
+.sprite-facebook-64 {
+  background-position: 0 -73px;
+  width: 52px;
+  height: 52px;
+}
+
+.sprite-facebook {
+  background-position: 0 -135px;
+  width: 16px;
+  height: 16px;
+}
+
+.sprite-magnifyer {
+  background-position: 0 -161px;
+  width: 17px;
+  height: 17px;
+}
+
+.sprite-twitter-64 {
+  background-position: 0 -188px;
+  width: 63px;
+  height: 47px;
+}
+
+.sprite-twitter {
+  background-position: 0 -245px;
+  width: 21px;
+  height: 15px;
+}
+
+/*****************************/
+/*			Footer			 */
+/*****************************/
+
+footer {
+	clear: both;
+	height: auto;
+	margin-top: 0;
+	background: none;
+	text-align: center;
+	padding-bottom: 30px;
+}
+
+footer .contact {
+	margin-bottom: 68px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+footer .contact a {
+ 	line-height: 50px;
+}
+
+footer .contact a:hover {
+	text-decoration: none;
+}
+
+footer .contact #facebook {
+  	padding-left: 65px;
+}
+
+footer .contact #twitter {
+  	padding-left: 71px;
+  	line-height: 43px;
+}
+
+footer .contact #facebook:hover {
+	color: #3b5998;
+}
+
+footer .contact #twitter:hover {
+	color: #4099ff;
+}
+
+footer .sprites_icon {
+  margin-left: 10px;
+}
+
+footer .contact td {
+	width: inherit;
+	vertical-align:middle;
+}
+
+footer .contact .sprite-facebook-64 a {
+  margin-right: 20px;
+}
+
+footer .feedback {
+	margin-bottom: 30px;
+	position: relative;
+	background: -moz-linear-gradient(top, rgba(255, 255, 255, 0.4) 0%, rgba(255, 255, 255, 0) 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(255, 255, 255, 0.4)), color-stop(100%,rgba(255, 255, 255, 0)));
+	background: -webkit-linear-gradient(top, rgba(255, 255, 255, 0.4) 0%,rgba(255, 255, 255, 0) 100%);
+	background: -o-linear-gradient(top, rgba(255, 255, 255, 0.4) 0%,rgba(255, 255, 255, 0) 100%);
+	background: -ms-linear-gradient(top, rgba(255, 255, 255, 0.4) 0%,rgba(255, 255, 255, 0) 100%);
+	background: linear-gradient(top, rgba(255, 255, 255, 0.4) 0%,rgba(255, 255, 255, 0) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#66ffffff', endColorstr='#00ffffff',GradientType=0 );
+	-webkit-box-shadow: 0 1px 0px rgba(255, 255, 255, 0.5) inset;
+	-moz-box-shadow: 0 1px 0px rgba(255,255,255,0.5) inset;
+	box-shadow: 0 1px 0px rgba(255, 255, 255, 0.5) inset;
+	border: 1px solid #DDD;
+	height: auto;
+	padding: 19px 20px 20px 20px;
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
+	border-radius: 4px;	
+	clear: both;
+	width: 530px;
+	font-size: 18px;
+	display: block;
+}
+
+footer .feedback #email {
+	height: 40px;
+	padding-right: 117px;
+	width: 403px;
+	color: #000;
+	padding: 0 10px;
+	border: 1px solid #ddd;
+	width: 510px;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	border-radius: 3px;
+	font-size: 18px;
+	outline: none;
+}
+
+	
+footer .feedback #submit {
+	background-color: #1ba1e2;
+	color: white;
+	width: 100px;
+	position: absolute;
+	top: 21px;
+	right: 20px;
+	height: 38px;
+	font-size: 18px;
+	border: none;
+}
+
+
+@media (max-width:480px)  {
+  
+  body, .centered {
+    min-width: 100%;
+    width: 100%;
+  }
+
+  header .container {
+    width:94%;
+    min-width:94%;
+    padding: 8px;
+  }
+
+  header #frenchfry_logo, header #frenchfry_logo a {
+    width: 32px;
+  }
+
+  h1 {
+    margin: 30px auto;
+    line-height: 1.3em;
+    font-size: 1.3em;
+  }
+
+  #main .projects #cover {
+    min-width: 100%;
+    width: 100%;
+  }
+  #main .projects #cover .icon {
+    margin:0px;
+    margin-top: 40px;
+    margin-left: 40px;
+  }
+
+  #main .projects #cover .title {
+    margin: 0px;
+    margin-top: 54px;
+    margin-left: 12px;
+  }
+
+  #main .projects #cover .description {
+    margin: 0px;
+    margin-left: 47px;
+    padding-top: 55px;
+    width: 290px;
+  }
+
+  header .menu {
+    margin-top: 8px;
+    margin-right: 8px;
+  }
+
+  header .menu li {
+    margin: 0px;
+  }
+
+  .contact a {
+    display:block;
+    clear:both;
+  }
+
+}
