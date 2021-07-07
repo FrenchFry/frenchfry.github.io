@@ -230,10 +230,6 @@ header .menu .under_menu a:hover {
     padding: 8px;
   }
 
-  .header_background {
-
-  }
-
   #main {
     margin-top: 260px;
   }
@@ -278,4 +274,5 @@ header .menu .under_menu a:hover {
 
   h1, h2 {
     font-size: 1.4em;
+  }
 }
