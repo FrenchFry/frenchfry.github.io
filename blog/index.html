@@ -43,19 +43,19 @@
 
 <p>I tried it here too!</p>
 
-<p><img src="http://frenchfry.blob.core.windows.net/blog/windows10_cover_interface.jpg" alt="Windows 10 UWP Cover interface" /></p>
+<p><img src="https://frenchfry.blob.core.windows.net/blog/windows10_cover_interface.jpg" alt="Windows 10 UWP Cover interface" /></p>
 
 <p>With Windows 10 and UWP, Microsoft kept their flat modern UI design and introduced a lot of novelty. We read design guidelines and studied all latest apps from Microsoft and best developers' apps to identify what matters, which are the good solutions and what's less interesting. We want to be part of the 10 best apps on Windows 10.</p>
 
 <p>On Windows side it's difficult because Microsoft is not always consistent. One example is the hamburger menu... It's difficult to find two apps from Microsoft using the same menu bar and menu button:</p>
 
-<p><img src="http://frenchfry.blob.core.windows.net/blog/inconsistent_hamburger_menu_windows10.jpg" alt="Windows 10 UWP hamburger menu inconsistencies" /></p>
+<p><img src="https://frenchfry.blob.core.windows.net/blog/inconsistent_hamburger_menu_windows10.jpg" alt="Windows 10 UWP hamburger menu inconsistencies" /></p>
 
 <p>Depending on the team who implements the hamburger menu it's always different, even if it's two teams from Microsoft. It's always flat and modern UI but often with different sizes, positions and behaviors.</p>
 
 <p>So, we tried to choose the best and leave the rest.</p>
 
-<p><img src="http://frenchfry.blob.core.windows.net/blog/UWP_inspiration.jpg" alt="Windows 10 UWP inspiration" /></p>
+<p><img src="https://frenchfry.blob.core.windows.net/blog/UWP_inspiration.jpg" alt="Windows 10 UWP inspiration" /></p>
 
 <p>For example, Weather app for the hamburger menu (same team as News, or sports apps), Poki app for pop-up and especially in-app pop-up, Windows for the Cortana search bar and Groove for the reading state...</p>
 
@@ -65,15 +65,15 @@
 
 <p>In Windows 10, Microsoft made another big change, they went from horizontal scrolling to vertical scrolling. Horizontal scrolling was not a bad thing for us, especially for the Currently Reading part. Because all comics covers are portraits it's easier to make a highlighted slice in the UI in horizontal scroll than in vertical scroll.</p>
 
-<p><img src="http://frenchfry.blob.core.windows.net/blog/vertical_scrolling_windows10.jpg" alt="Vertical scrolling in Windows 10 UWP Cover" /></p>
+<p><img src="https://frenchfry.blob.core.windows.net/blog/vertical_scrolling_windows10.jpg" alt="Vertical scrolling in Windows 10 UWP Cover" /></p>
 
-<p><img src="http://frenchfry.blob.core.windows.net/blog/horizontal_scrolling_windows10.jpg" alt="Horizontal scrolling in Windows 10 UWP Cover" /></p>
+<p><img src="https://frenchfry.blob.core.windows.net/blog/horizontal_scrolling_windows10.jpg" alt="Horizontal scrolling in Windows 10 UWP Cover" /></p>
 
 <p>So, for the currently reading we were blocked if we wanted to keep the visual weight of currently reading with a beautiful grid.</p>
 
 <p>We decided to extract currently reading from the library screen and make a special section for it (as now we got a   big menu ;-))</p>
 
-<p><img src="http://frenchfry.blob.core.windows.net/blog/currently_reading_cover_windows10.jpg" alt="Currently reading in Cover for Windows 10 UWP" /></p>
+<p><img src="https://frenchfry.blob.core.windows.net/blog/currently_reading_cover_windows10.jpg" alt="Currently reading in Cover for Windows 10 UWP" /></p>
 
 <h3>Scaling party!</h3>
 
@@ -81,11 +81,11 @@
 
 <p>This chart shows the complexity and limits of the 8.1 scaling systems:</p>
 
-<p><img src="http://frenchfry.blob.core.windows.net/blog/windows_8_1_scaling.png" alt="Windows 8.1 UWP scaling" /></p>
+<p><img src="https://frenchfry.blob.core.windows.net/blog/windows_8_1_scaling.png" alt="Windows 8.1 UWP scaling" /></p>
 
 <p>For Windows 10, they unified all scaling to a single set of scale factors for both UWP and classic applications on both the Desktop and Mobile:</p>
 
-<p><img src="http://frenchfry.blob.core.windows.net/blog/windows_10_scaling.png" alt="Windows 10 UWP scaling" /></p>
+<p><img src="https://frenchfry.blob.core.windows.net/blog/windows_10_scaling.png" alt="Windows 10 UWP scaling" /></p>
 
 <p>In Windows 8.1 all scaling topped out at 180% or 250%. For Windows 10 they knew that devices like 13.3" 4K laptops and 5.2" and 5.7" QHD phones would require even higher scale factors. And thanks to the new unified scaling model of Windows 10 which goes up to 450%, we will also have to support future displays like 4K 6" phones and 23" 8K desktop monitors.</p>
 
@@ -95,17 +95,17 @@
 
 <p>Big news! It's a little bit far-fetched and not perfect like specifics png for every scaling, but it works!</p>
 
-<p>I design on photoshop (inspired by this <a href="https://bjango.com/articles/appdesignworkflow/">article</a>) at scale 100 (1366 pts x 768 pts for desktop and 360 pts x 480 pts for mobile), then I export pixels perfect svg, finally I open all of them in illustrator with a little script which export to xaml (thanks to this <a href="http://www.mikeswanson.com/xamlexport/">plugin</a>).</p>
+<p>I design on photoshop (inspired by this <a href="https://bjango.com/articles/appdesignworkflow/">article</a>) at scale 100 (1366 pts x 768 pts for desktop and 360 pts x 480 pts for mobile), then I export pixels perfect svg, finally I open all of them in illustrator with a little script which export to xaml (thanks to this <a href="https://www.mikeswanson.com/xamlexport/">plugin</a>).</p>
 
 <p>In terms of design it's nearly perfect. Perfect at scales 100, 200, 300, 400 (because they are all multiples of 100); OK at scales 450, 350, 250, 225 (because high dpi screens are nicer for non pixel perfect icons) and not bad at 175, 150 or 125 (125 is really the worst because we can see that it's not pixel perfect, but screens with these densities tend to disappear).</p>
 
-<p><img src="http://frenchfry.blob.core.windows.net/blog/scaling.gif" alt="Windows 10 UWP scaling comparison" /></p>
+<p><img src="https://frenchfry.blob.core.windows.net/blog/scaling.gif" alt="Windows 10 UWP scaling comparison" /></p>
 
 <p>In terms of size it's a big victory! We had 5,8MB of png and now all xaml icons take just 55KB of disk space.</p>
 
 <h3>Hamburger menu</h3>
 
-<p>It seems pretty clear for us that Microsoft push this type of navigation, they use it in all their apps, we weren't fan of this (<a href="http://deep.design/the-hamburger-menu/">http://deep.design/the-hamburger-menu/</a>) but we decided to implement it because on desktop we can keep all icons of the menu visible, because it is used all over in Windows (so users should know it), because it's recommended in <a href="https://msdn.microsoft.com/en-us/windows/uwp/controls-and-patterns/nav-pane">Microsoft guidelines</a> and because we want an evolutive menu (I had to add a button for settings, store, etc.).</p>
+<p>It seems pretty clear for us that Microsoft push this type of navigation, they use it in all their apps, we weren't fan of this (<a href="https://deep.design/the-hamburger-menu/">https://deep.design/the-hamburger-menu/</a>) but we decided to implement it because on desktop we can keep all icons of the menu visible, because it is used all over in Windows (so users should know it), because it's recommended in <a href="https://msdn.microsoft.com/en-us/windows/uwp/controls-and-patterns/nav-pane">Microsoft guidelines</a> and because we want an evolutive menu (I had to add a button for settings, store, etc.).</p>
 
 <p>With this navigation, we choose to animate the panel over the content and over the title bar, it's a mix between Groove and Weather apps.</p>
 
@@ -113,9 +113,9 @@
 
 <p>There is a lot more to say, next time I could write about continuum design exploration, the full screen in all different modes, or fonts guidelines...</p>
 
-<p>You can download the app on the <a href="http://clkuk.tradedoubler.com/click?p(213961)a(2792516)g(22467036)url(https://www.microsoft.com/en-us/store/apps/cover-comic-reader/9wzdncrfj9w7)">Windows Store</a> if it's not already done.</p>
+<p>You can download the app on the <a href="https://clkuk.tradedoubler.com/click?p(213961)a(2792516)g(22467036)url(https://www.microsoft.com/en-us/store/apps/cover-comic-reader/9wzdncrfj9w7)">Windows Store</a> if it's not already done.</p>
 
-<p>Follow us on <a href="http://www.twitter.com/frenchfry">Twitter</a> and <a href="http://www.facebook.com/frenchfrysoftware">Facebook</a> for more tips and tricks about Cover.</p>
+<p>Follow us on <a href="https://www.twitter.com/frenchfry">Twitter</a> and <a href="https://www.facebook.com/frenchfrysoftware">Facebook</a> for more tips and tricks about Cover.</p>
 
 <p>Good reading!</p>
   </section>
@@ -131,13 +131,13 @@
 
 <p>Cover now fully embraces Windows 10. We've rethought the UI from the ground up to provide you the best possible reading experience on all your Windows 10 devices (Desktop/Tablet and Phone).</p>
 
-<p><img src="http://frenchfry.blob.core.windows.net/blog/2016-03-21/cover-uwp-desktop.jpg" alt="Cover UWP Desktop" /></p>
+<p><img src="https://frenchfry.blob.core.windows.net/blog/2016-03-21/cover-uwp-desktop.jpg" alt="Cover UWP Desktop" /></p>
 
 <p>We've kept all the features that made Cover so great for all of you. You won't feel lost when using this new version. We've used the Universal Windows Platform design language to better reorganize options, and the way you can access them.</p>
 
 <p>Thanks to the new development platform, your experience should be the same on all your Windows 10 devices and it should allow us to give you the same features on all the platform at the same time.</p>
 
-<p><img src="http://frenchfry.blob.core.windows.net/blog/2016-03-21/cover-uwp-phone.jpg" alt="Cover UWP Phone" /></p>
+<p><img src="https://frenchfry.blob.core.windows.net/blog/2016-03-21/cover-uwp-phone.jpg" alt="Cover UWP Phone" /></p>
 
 <p>Here is a quick reminder of some of the features available:</p>
 
@@ -151,9 +151,9 @@
 
 <p>Cover 3 is a free upgrade for existing users, so if you've already purchased Cover and upgrade to the new version, you won't have to pay a dime.</p>
 
-<p>You just have to get the update on the <a href="http://clkuk.tradedoubler.com/click?p(213961)a(2792516)g(22467036)url(https://www.microsoft.com/en-us/store/apps/cover-comic-reader/9wzdncrfj9w7)">Windows Store</a>.</p>
+<p>You just have to get the update on the <a href="https://clkuk.tradedoubler.com/click?p(213961)a(2792516)g(22467036)url(https://www.microsoft.com/en-us/store/apps/cover-comic-reader/9wzdncrfj9w7)">Windows Store</a>.</p>
 
-<p>Follow us on <a href="http://www.twitter.com/frenchfry">Twitter</a> and <a href="http://www.facebook.com/frenchfrysoftware">Facebook</a> for more tips and tricks about Cover.</p>
+<p>Follow us on <a href="https://www.twitter.com/frenchfry">Twitter</a> and <a href="https://www.facebook.com/frenchfrysoftware">Facebook</a> for more tips and tricks about Cover.</p>
 
 <p>Good reading!</p>
   </section>
@@ -189,11 +189,11 @@
 <li><p>EPUB: Initially designed to represent textual e-books, it can handle images as well. <a href="https://en.wikipedia.org/wiki/EPUB">It is free and open-source</a> and it's basically a zip containing structured information on how to display a book. Formatting is HTML that can reference resource images. In Cover, since we only wanted to handle images in epub files (we don't have controls to change font size, line height,..), we just implemented our own basic reader that extracts the images and considers each image is a page.</p></li>
 </ul>
 
-<p>I hope you'll have learned something by reading this. Feel free to open your comic book archives using a tool such as <a href="http://www.7-zip.org/">7-ZIP</a> to check out how they work or extract some pages to make a nice desktop background. You can also create your own comic books very easily.</p>
+<p>I hope you'll have learned something by reading this. Feel free to open your comic book archives using a tool such as <a href="https://www.7-zip.org/">7-ZIP</a> to check out how they work or extract some pages to make a nice desktop background. You can also create your own comic books very easily.</p>
 
-<p>Finally, if you'd like to free up some serious space on your device, you should consider <a href="http://tomeko.net/software/CbxConverter/">recompressing part of your comic books to WEBP</a>. Don't worry, Cover will still be able to open them ;)</p>
+<p>Finally, if you'd like to free up some serious space on your device, you should consider <a href="https://tomeko.net/software/CbxConverter/">recompressing part of your comic books to WEBP</a>. Don't worry, Cover will still be able to open them ;)</p>
 
-<p>Follow us on <a href="http://www.twitter.com/frenchfry">Twitter</a> and <a href="http://www.facebook.com/frenchfrysoftware">Facebook</a> for more tips and tricks about Cover.</p>
+<p>Follow us on <a href="https://www.twitter.com/frenchfry">Twitter</a> and <a href="https://www.facebook.com/frenchfrysoftware">Facebook</a> for more tips and tricks about Cover.</p>
 
 <p>Good reading!</p>
   </section>
@@ -223,7 +223,7 @@
 
 <p>As usual, with any updates, we took care of fixing bugs and crashes</p>
 
-<p>You can get the update from within Steed, via the in-app updater, or you can <a href="http://www.frenchfrysoftware.com/steed">download it from our website.</a></p>
+<p>You can get the update from within Steed, via the in-app updater, or you can <a href="https://www.frenchfrysoftware.com/steed">download it from our website.</a></p>
   </section>
 </article>
 <article>
@@ -237,37 +237,37 @@
 
 <p>Begin by adding a OneDrive folder to the app:</p>
 
-<p><img src="http://frenchfry.blob.core.windows.net/blog/2016-02-02/ss1.png" alt="Add a OneDrive folder to your library" /></p>
+<p><img src="https://frenchfry.blob.core.windows.net/blog/2016-02-02/ss1.png" alt="Add a OneDrive folder to your library" /></p>
 
 <p>If it's the first time you do this, you'll be asked to authorize access to your OneDrive (for Dropbox, the same thing happens except you're redirected to your browser then back to the app once validated):</p>
 
-<p><img src="http://frenchfry.blob.core.windows.net/blog/2016-02-02/ss2.png" alt="Authorize OneDrive" /></p>
+<p><img src="https://frenchfry.blob.core.windows.net/blog/2016-02-02/ss2.png" alt="Authorize OneDrive" /></p>
 
 <p>You're then redirected to a picker showing you the files and folders of your OneDrive. Select the root folder that contains your comic books (if there are more than one, repeat these steps), and tap OK.</p>
 
 <p>After a brief loading, Cover shows you your comic books, except they are grayed out and there is a cloud icon on top of it. They also don't have a thumbnail, because to be able to display a thumbnail, we would have to download the comic books, and that would defeat the purpose of cloud storage wouldn't it ?</p>
 
-<p><img src="http://frenchfry.blob.core.windows.net/blog/2016-02-02/ss3.png" alt="OneDrive folder in Cover" /></p>
+<p><img src="https://frenchfry.blob.core.windows.net/blog/2016-02-02/ss3.png" alt="OneDrive folder in Cover" /></p>
 
 <p>To be able to read these comics, you have to download them. To do that, just tap on them, or select them and tap the "Available offline" button in the appbar. The number on top of the comic book indicates the download progress percent. Once completed, the thumbnail will be generated and you'll be able to open the book.</p>
 
-<p><img src="http://frenchfry.blob.core.windows.net/blog/2016-02-02/ss4.png" alt="Downloaded OneDrive comic book" /></p>
+<p><img src="https://frenchfry.blob.core.windows.net/blog/2016-02-02/ss4.png" alt="Downloaded OneDrive comic book" /></p>
 
 <p>Now if you want to remove the local copy of your comic books to free up space, just select those and tap the "Online only" button. The book will be removed locally, but will of course remain on OneDrive, and the thumbnail is also kept for a classier library.<br />
 If you're downloading a lot of files, the "Downloads" screen will help you keep track.</p>
 
-<p><img src="http://frenchfry.blob.core.windows.net/blog/2016-02-02/ss5.png" alt="Downloads screen" /></p>
+<p><img src="https://frenchfry.blob.core.windows.net/blog/2016-02-02/ss5.png" alt="Downloads screen" /></p>
 
 <p>These features work exactly the same on OneDrive and Dropbox, and on Windows desktop as well as phone. Let us know if the feature fits the way you use the app!</p>
 
-<p>Follow us on <a href="http://www.twitter.com/frenchfry">Twitter</a> and <a href="http://www.facebook.com/frenchfrysoftware">Facebook</a> for more tips and tricks about Cover.</p>
+<p>Follow us on <a href="https://www.twitter.com/frenchfry">Twitter</a> and <a href="https://www.facebook.com/frenchfrysoftware">Facebook</a> for more tips and tricks about Cover.</p>
 
 <p>Good reading!</p>
   </section>
 </article>
 <article>
   <header class="article_header">
-    <h1 class="article_title"><a href="http://www.frenchfrysoftware.com/blog/2016/01/20/cover-26-now-syncing-your-devices">Cover 2.6, now syncing your devices</a></h1>
+    <h1 class="article_title"><a href="https://www.frenchfrysoftware.com/blog/2016/01/20/cover-26-now-syncing-your-devices">Cover 2.6, now syncing your devices</a></h1>
     <div class="article_date">20 January, 2016 by Jerome</div>
   </header>
 
@@ -277,12 +277,12 @@ Let me explain how it works.</p>
 
 <p>First, go to the app settings and enable it. Right now, <strong>the feature is in Beta</strong> and it is only available for paid users (either 250 or unlimited):</p>
 
-<p><img src="http://frenchfry.blob.core.windows.net/blog/2016-01-19/ss1.png" alt="Activate syncing setting" /></p>
+<p><img src="https://frenchfry.blob.core.windows.net/blog/2016-01-19/ss1.png" alt="Activate syncing setting" /></p>
 
 <p>From now on, when you suspend the app, the status of your books (read, unread, page number) will be transfered to your Windows account using Roaming settings. Windows sync that automatically when you lock the screen. When you log in to another device, Cover will read from this Roaming data and apply the statuses to its local library. We try to identify the same files even if the paths are not the same, because it's likely you'll have a different copy of the files on two or more devices.</p>
 
 <iframe id="ytplayer" type="text/html" width="100%" height="450" frameborder="0"
-  src="http://www.youtube.com/embed/UzLIC1GrEWY?autoplay=1&origin=http://frenchfrysoftware.com/blog">
+  src="https://www.youtube.com/embed/UzLIC1GrEWY?autoplay=1&origin=https://frenchfrysoftware.com/blog">
 </iframe>
 
 <p>Although our testings were satisfying, we're trying to know if this is enough to provide a good experience. That's why the feature is only in beta, we hope you'll give us some feedback about it. There are quite severe limitations to the feature, <a href="https://msdn.microsoft.com/en-us/library/windows/apps/hh465094.aspx">due to how Roaming works</a>:</p>
@@ -303,7 +303,7 @@ Let me explain how it works.</p>
 
 <p>Let us know how that works for you, and if we should improve it. We have several ideas but we're really looking forward to reading from you first!</p>
 
-<p>Follow us on <a href="http://www.twitter.com/frenchfry">Twitter</a> and <a href="http://www.facebook.com/frenchfrysoftware">Facebook</a> for more tips and tricks about Cover.</p>
+<p>Follow us on <a href="https://www.twitter.com/frenchfry">Twitter</a> and <a href="https://www.facebook.com/frenchfrysoftware">Facebook</a> for more tips and tricks about Cover.</p>
 
 <p>Good reading!</p>
   </section>
@@ -327,17 +327,17 @@ Let me explain how it works.</p>
 
 <p>The way it works, is that kids now have a special "session" on the phone that you can access from the lock screen, by swiping left. Your session is the same it used to be, however by accessing the Kid's Corner session, you'll only be able to start the apps/videos/music/... you selected.</p>
 
-<p><img src="http://frenchfry.blob.core.windows.net/blog/2015-12-09/ss1.gif" alt="Access Kid's Corner session" /></p>
+<p><img src="https://frenchfry.blob.core.windows.net/blog/2015-12-09/ss1.gif" alt="Access Kid's Corner session" /></p>
 
 <p>Now that you have allowed Cover to the Kid's Corner, you'll want to choose which comic books they have access to. This is a "opt-in" process so your kids never have access to anything you don't want them to. Right now, if you start Cover in the Kid's Corner, it will be completely empty.</p>
 
 <p>Open your session, start Cover, then select the comic books and click "show in Kid's Corner":</p>
 
-<p><img src="http://frenchfry.blob.core.windows.net/blog/2015-12-09/ss2.png" alt="Mark books as kids friendly" /></p>
+<p><img src="https://frenchfry.blob.core.windows.net/blog/2015-12-09/ss2.png" alt="Mark books as kids friendly" /></p>
 
 <p>Now if you go to the Kid's Corner session and start Cover, you'll be able to see the comic books you authorized, and only them:</p>
 
-<p><img src="http://frenchfry.blob.core.windows.net/blog/2015-12-09/ss3.png" alt="Only kids friendly comic books appear in Kid's Corner" /></p>
+<p><img src="https://frenchfry.blob.core.windows.net/blog/2015-12-09/ss3.png" alt="Only kids friendly comic books appear in Kid's Corner" /></p>
 
 <p>There are some other stuff that are hidden in the app when it is started in Kid's Corner session:<br />
 - Kids can't add or remove content from the app or browse through your phone, SD card or cloud folders.<br />
@@ -345,7 +345,7 @@ Let me explain how it works.</p>
 
 <p>We hope this will encourage you to have your kids read comic books! They are a great educative medium and encourage children imagination. It's our first implementation of the feature, so if you think it can be improved, please let us know!</p>
 
-<p>Follow us on <a href="http://www.twitter.com/frenchfry">Twitter</a> and <a href="http://www.facebook.com/frenchfrysoftware">Facebook</a> for more tips and tricks about Cover.</p>
+<p>Follow us on <a href="https://www.twitter.com/frenchfry">Twitter</a> and <a href="https://www.facebook.com/frenchfrysoftware">Facebook</a> for more tips and tricks about Cover.</p>
 
 <p>Good reading!</p>
   </section>
@@ -361,17 +361,17 @@ Let me explain how it works.</p>
 
 <p>First, we are now implementing the Kid's Corner feature of Windows Phone. More on that in the next blog post, but to sum it up, you can specify which books are available in Kid's Corner.</p>
 
-<p><img src="http://frenchfry.blob.core.windows.net/blog/2015-11-27/ss1.png" alt="Cover is now kids friendly" /></p>
+<p><img src="https://frenchfry.blob.core.windows.net/blog/2015-11-27/ss1.png" alt="Cover is now kids friendly" /></p>
 
 <p>There is now a nice "circly" progress bar in the bottom left corner of the reader, so that you know where you are without having to pop the controls out.</p>
 
-<p><img src="http://frenchfry.blob.core.windows.net/blog/2015-11-27/ss2.png" alt="Circle progress bar to show where you are" /></p>
+<p><img src="https://frenchfry.blob.core.windows.net/blog/2015-11-27/ss2.png" alt="Circle progress bar to show where you are" /></p>
 
 <p>The smart rename feature has been improved further, to show you only the relevant parts of your comic book names. Reading performance has been improved, and we now smooth pages in when they are loaded. Finally, not that you necessarly care about it, but we removed all Windows 8.0 related stuff (since we dropped support at Win10 release) to reduce the package size.</p>
 
 <p>It's available now on the <a href="https://www.microsoft.com/en-us/store/apps/cover-comic-reader/9wzdncrfj9w7">Windows Store</a> and <a href="https://www.microsoft.com/en-us/store/apps/cover-comic-reader/9wzdncrfj9w7">Windows Phone Store</a> as a universal app.</p>
 
-<p>Follow us on <a href="http://www.twitter.com/frenchfry">Twitter</a> and <a href="http://www.facebook.com/frenchfrysoftware">Facebook</a> for more news and info about Cover.</p>
+<p>Follow us on <a href="https://www.twitter.com/frenchfry">Twitter</a> and <a href="https://www.facebook.com/frenchfrysoftware">Facebook</a> for more news and info about Cover.</p>
 
 <p>Good reading!</p>
   </section>
@@ -388,35 +388,35 @@ Guess what? Cover can help you do just that!</p>
 
 <p>First, move and organize all your comic books somewhere on your local network, using Windows Explorer. Once everything is properly organized, start Cover, and add a network folder to the library:</p>
 
-<p><img src="http://frenchfry.blob.core.windows.net/blog/2015-11-23/ss1.png" alt="Add a remote folder to library" /></p>
+<p><img src="https://frenchfry.blob.core.windows.net/blog/2015-11-23/ss1.png" alt="Add a remote folder to library" /></p>
 
 <p>From now on, Cover is "linked" to your network folder. It won't copy the comic book files on your device, you'll be streaming them directly from your remote PC. Of course, this means the storage must be available for you to read.
 We have a tiny visual helper in Cover to help you know wether the folder is available or not: If it's not, the comic book thumbnails will be "grayed out":</p>
 
-<p><img src="http://frenchfry.blob.core.windows.net/blog/2015-11-23/ss2.png" alt="Remote folder is unavailable" /></p>
+<p><img src="https://frenchfry.blob.core.windows.net/blog/2015-11-23/ss2.png" alt="Remote folder is unavailable" /></p>
 
 <p>And the "manage library" screen will mention it:</p>
 
-<p><img src="http://frenchfry.blob.core.windows.net/blog/2015-11-23/ss3.png" alt="Remote folder is unavailable" /></p>
+<p><img src="https://frenchfry.blob.core.windows.net/blog/2015-11-23/ss3.png" alt="Remote folder is unavailable" /></p>
 
 <p>In that case, you can't read anything. That's a pretty big issue.
 Cover has a solution for that too. Before you leave your house, mark the comic book and folders you want to read as "available offline". After a few seconds, they will be copied on the internal storage of your laptop or tablet, so you can read them on the go.</p>
 
-<p><img src="http://frenchfry.blob.core.windows.net/blog/2015-11-23/ss4.png" alt="Mark the files as available offline" /></p>
+<p><img src="https://frenchfry.blob.core.windows.net/blog/2015-11-23/ss4.png" alt="Mark the files as available offline" /></p>
 
 <p>There is even a Smartview to help you see what you can read offline!</p>
 
-<p><img src="http://frenchfry.blob.core.windows.net/blog/2015-11-23/ss5.png" alt="Smartview &quot;Available offline&quot;" /></p>
+<p><img src="https://frenchfry.blob.core.windows.net/blog/2015-11-23/ss5.png" alt="Smartview &quot;Available offline&quot;" /></p>
 
 <p>Don't forget to mark them as "Online only" once you're finished, so you free up some storage.</p>
 
 <p>As an optimization, if you don't need the library to refresh very often or you prefer to do it manually (using the bottom app bar button on the main view), remember that you can disable the library "auto refresh" in the settings to improve app performance. This is especially important when your books are on the network.</p>
 
-<p><img src="http://frenchfry.blob.core.windows.net/blog/2015-11-23/ss6.png" alt="Disable the library &quot;auto refresh&quot; setting" /></p>
+<p><img src="https://frenchfry.blob.core.windows.net/blog/2015-11-23/ss6.png" alt="Disable the library &quot;auto refresh&quot; setting" /></p>
 
 <p>One important thing to note is that when you're streaming comic books from network (as opposed to internal storage), refreshing the library will be slower, as well as generating thumbnails or opening comic books. If you have a fast network you might not even notice the difference, but over a slow Wifi, prepare yourself for a little more patience. Happily, you can still read a comic book while thumbnails are generating :)</p>
 
-<p>Follow us on <a href="http://www.twitter.com/frenchfry">Twitter</a> and <a href="http://www.facebook.com/frenchfrysoftware">Facebook</a> for more tips and tricks about Cover.</p>
+<p>Follow us on <a href="https://www.twitter.com/frenchfry">Twitter</a> and <a href="https://www.facebook.com/frenchfrysoftware">Facebook</a> for more tips and tricks about Cover.</p>
 
 <p>Good reading!</p>
   </section>
@@ -431,40 +431,40 @@ Cover has a solution for that too. Before you leave your house, mark the comic b
     <p>We’re getting a lot of feedback lately from users that don’t like how Cover displays books as a flat folder, instead of a hierarchy of shelves and books.
 So let’s pretend you have these comic books and you want to have them all in Cover:</p>
 
-<p><img src="http://frenchfry.blob.core.windows.net/blog/2015-11-13/ss1.png" alt="Files and folders structure" /></p>
+<p><img src="https://frenchfry.blob.core.windows.net/blog/2015-11-13/ss1.png" alt="Files and folders structure" /></p>
 
 <p>So you begin to add the folders the usual way:</p>
 
-<p><img src="http://frenchfry.blob.core.windows.net/blog/2015-11-13/ss2.png" alt="Add comics to Cover" /></p>
+<p><img src="https://frenchfry.blob.core.windows.net/blog/2015-11-13/ss2.png" alt="Add comics to Cover" /></p>
 
 <p>And you add your folders until all of them are present in the app. So your "manage content" screen looks like this:</p>
 
-<p><img src="http://frenchfry.blob.core.windows.net/blog/2015-11-13/ss3.png" alt="Manage content screen when everything is done the wrong way" /></p>
+<p><img src="https://frenchfry.blob.core.windows.net/blog/2015-11-13/ss3.png" alt="Manage content screen when everything is done the wrong way" /></p>
 
 <p>Wow, that was boring. Now let’s get to the pleasant part. Having all of these display nicely in folders, each having thumbnails and a proper background, and beginning to read them. This is how Cover main screen will look like:</p>
 
-<p><img src="http://frenchfry.blob.core.windows.net/blog/2015-11-13/ss4.png" alt="Flat comics view" /></p>
+<p><img src="https://frenchfry.blob.core.windows.net/blog/2015-11-13/ss4.png" alt="Flat comics view" /></p>
 
 <p>Not so great, uh? But guess what?</p>
 
-<p><img src="http://frenchfry.blob.core.windows.net/blog/2015-11-13/ss5.jpg" alt="You're doing it wrong" /></p>
+<p><img src="https://frenchfry.blob.core.windows.net/blog/2015-11-13/ss5.jpg" alt="You're doing it wrong" /></p>
 
 <p>Instead of adding all your comic books folders separately, you should have added the root "Comic Books" folder.
 So when you "add a folder" and Cover presents you with its folder picker, be sure to be in the root folder, and not a subfolder, and click "select folder". This is from Windows 10 "PC mode", but the same stands for a tablet or phone on Win8.1:</p>
 
-<p><img src="http://frenchfry.blob.core.windows.net/blog/2015-11-13/ss6.png" alt="Proper folder picker configuration" /></p>
+<p><img src="https://frenchfry.blob.core.windows.net/blog/2015-11-13/ss6.png" alt="Proper folder picker configuration" /></p>
 
 <p>Not only is it faster, you’ll get all the Cover goodness from now on:</p>
 
-<p><img src="http://frenchfry.blob.core.windows.net/blog/2015-11-13/ss7.png" alt="Proper library view" /></p>
+<p><img src="https://frenchfry.blob.core.windows.net/blog/2015-11-13/ss7.png" alt="Proper library view" /></p>
 
 <p>Now you have it right.</p>
 
-<p><img src="http://frenchfry.blob.core.windows.net/blog/2015-11-13/ss8.jpg" alt="Approved by French Fry, and also by this guy" /></p>
+<p><img src="https://frenchfry.blob.core.windows.net/blog/2015-11-13/ss8.jpg" alt="Approved by French Fry, and also by this guy" /></p>
 
 <p>Remember, Cover works in a very simple way: It will map your filesystem folders and files structure. So if you want to reorganize how Cover displays your comic books, just use Windows Explorer to arrange your files, then switch back to Cover and it will sync automatically.</p>
 
-<p>Follow us on <a href="http://www.twitter.com/frenchfry">Twitter</a> and <a href="http://www.facebook.com/frenchfrysoftware">Facebook</a> for more tips and tricks about Cover.</p>
+<p>Follow us on <a href="https://www.twitter.com/frenchfry">Twitter</a> and <a href="https://www.facebook.com/frenchfrysoftware">Facebook</a> for more tips and tricks about Cover.</p>
 
 <p>Good reading!</p>
   </section>
@@ -480,11 +480,11 @@ So when you "add a folder" and Cover presents you with its folder picker, be sur
 
 <p>Another one of our objectives was to provide a way for our user to discover and get new comics from within Cover. Here is our first try.</p>
 
-<p><img src="http://frenchfry.blob.core.windows.net/blog/cover_store.jpg" alt="French Fry Cover Store" /></p>
+<p><img src="https://frenchfry.blob.core.windows.net/blog/cover_store.jpg" alt="French Fry Cover Store" /></p>
 
 <p>This new release of Cover comes with the first version of our Store. We made a partnership with <a href="https://bdzmag.actualitte.com">BDZMag</a> in order to provide Creative Common comics to our users. Since all comics provided by our partner are in French, we decided to make this first version of the Store only available to our French users, as a test.</p>
 
-<p>This is just the first step, we really want to expand it, and make it available in more countries. It is, for now, only available for the Windows Store, a Windows Phone version is in the work. So do not hesitate to <a href="http://twitter.com/frenchfry">follow us</a>, <a href="http://www.facebook.com/FrenchFrySoftware">like us</a>, or <a href="http://eepurl.com/pyWE9">subscribe to our newsletter</a> if you want updates.</p>
+<p>This is just the first step, we really want to expand it, and make it available in more countries. It is, for now, only available for the Windows Store, a Windows Phone version is in the work. So do not hesitate to <a href="https://twitter.com/frenchfry">follow us</a>, <a href="https://www.facebook.com/FrenchFrySoftware">like us</a>, or <a href="https://eepurl.com/pyWE9">subscribe to our newsletter</a> if you want updates.</p>
 
 <p>As usual we made also a lot of bug fixes and improvements to the core application.</p>
 
@@ -504,7 +504,7 @@ So when you "add a folder" and Cover presents you with its folder picker, be sur
   <section class="article_content">
     <p>Last December we made Cover a universal app by releasing the Windows Phone version. Since then we’ve worked hard to add the much requested support of OneDrive and Dropbox into Cover.</p>
 
-<p><img src="http://frenchfry.blob.core.windows.net/blog/coveronedrivedropbox.png" alt="OneDrive and Dropbox support" /></p>
+<p><img src="https://frenchfry.blob.core.windows.net/blog/coveronedrivedropbox.png" alt="OneDrive and Dropbox support" /></p>
 
 <p>With this new version you will be able to add folder from OneDrive or Dropbox and see your comics right into the app. We've made it easy for you to make comics available for offline reading. Just tap on one of them and it will be downloaded into the app so you can read them on the go.</p>
 
@@ -530,7 +530,7 @@ So when you "add a folder" and Cover presents you with its folder picker, be sur
 
 <iframe class="vine-embed" src="https://vine.co/v/MZPbIqYMYdi/embed/simple" width="100%" height="800" frameborder="0"></iframe>
 
-<script async src="//platform.vine.co/static/scripts/embed.js" charset="utf-8"></script>
+<script async src="https://platform.vine.co/static/scripts/embed.js" charset="utf-8"></script>
 
 <p>We've tested this feature with many applications, but obviously not all, so feel free to report us any issue with apps you use.</p>
 
@@ -538,9 +538,9 @@ So when you "add a folder" and Cover presents you with its folder picker, be sur
 
 <p>For those of you who might wonder what is happening with Steed, be reassured, we still have plan for it. The next update should focus on UI refinements including support for HiDPI screen.</p>
 
-<p>As usual, you can get the update from within Steed, via the in-app updater, or you can <a href="http://www.frenchfrysoftware.com/steed">download it from our website.</a></p>
+<p>As usual, you can get the update from within Steed, via the in-app updater, or you can <a href="https://www.frenchfrysoftware.com/steed">download it from our website.</a></p>
 
-<p>Also, we would like to remind you that this is the <a href="http://www.frenchfrysoftware.com/blog/2014/06/11/steed-dropping-windows-xp-and-vista">last version of Steed running on Windows XP and Vista</a>.</p>
+<p>Also, we would like to remind you that this is the <a href="https://www.frenchfrysoftware.com/blog/2014/06/11/steed-dropping-windows-xp-and-vista">last version of Steed running on Windows XP and Vista</a>.</p>
   </section>
 </article>
 <article>
@@ -556,13 +556,13 @@ So when you "add a folder" and Cover presents you with its folder picker, be sur
 
 <p>We've put a lot of thinking, efforts and work in this version, to bring the best of the Windows 8 app to Windows Phone, and make it the best comics reading experience on your phone.</p>
 
-<p><img src="http://frenchfry.blob.core.windows.net/blog/coverwindowsphone.jpg" alt="Cover for Windows Phone" /></p>
+<p><img src="https://frenchfry.blob.core.windows.net/blog/coverwindowsphone.jpg" alt="Cover for Windows Phone" /></p>
 
 <p>Like on Windows, you will find a Manga mode, 3 fitting mode (width, height and page), ability to pin comics to the start screen, an automatic page border detection, support for CBR/CBZ/EPUB and even support for PDF on phones (feature still experimental, since there is no official support from the OS).</p>
 
 <p>We've also added new features for Windows Phone first. Like obviously, support for transparent tiles or Smart Naming, if all your comics in a folder starts with the same part, we hide it, so you just see the relevant parts.</p>
 
-<p>You can get <a href="http://www.windowsphone.com/en-us/store/app/cover/0109b4de-c9fe-4aab-92a0-7e1d064a08c9">Cover for free on the Windows Phone Store</a>, with in app purchases to unlock the full library.
+<p>You can get <a href="https://www.windowsphone.com/en-us/store/app/cover/0109b4de-c9fe-4aab-92a0-7e1d064a08c9">Cover for free on the Windows Phone Store</a>, with in app purchases to unlock the full library.
 As a universal app, if you already unlocked Cover on your Windows 8 devices, the library will also be unlocked on your phone.</p>
   </section>
 </article>
@@ -575,7 +575,7 @@ As a universal app, if you already unlocked Cover on your Windows 8 devices, the
   <section class="article_content">
     <p>Thank you for your involvement with Cover localization! Today we are glad to announce that Cover is available in 3 new languages, Japanese (thanks to TAKASIMA Tadataka), Dutch (thanks to Tom Mertens) and Serbian (thanks to Саша Петровић).</p>
 
-<p>We have more localization coming for Cover, if you'd like to help us, do not hesitate and contact us via <a href="http://www.twitter.com/frenchfry">Twitter</a>, <a href="http://www.facebook.com/frenchfrysoftware">Facebook</a> or <a href="mailto:cover@frenchfrysoftware.com?subject=Help%20Localize%20Cover">email</a>.</p>
+<p>We have more localization coming for Cover, if you'd like to help us, do not hesitate and contact us via <a href="https://www.twitter.com/frenchfry">Twitter</a>, <a href="https://www.facebook.com/frenchfrysoftware">Facebook</a> or <a href="mailto:cover@frenchfrysoftware.com?subject=Help%20Localize%20Cover">email</a>.</p>
 
 <p>This new version also contains some improvements when reading PDF, and it remembers your position in folders while navigating in the library.</p>
 
@@ -589,7 +589,7 @@ As a universal app, if you already unlocked Cover on your Windows 8 devices, the
   </header>
 
   <section class="article_content">
-    <p>One of our most requested feature is now available in <a href="http://apps.microsoft.com/windows/en-us/app/cover/189c45c1-9c90-42c0-8374-9f2e4c9eddef">Cover on the Windows Store</a>.</p>
+    <p>One of our most requested feature is now available in <a href="https://apps.microsoft.com/windows/en-us/app/cover/189c45c1-9c90-42c0-8374-9f2e4c9eddef">Cover on the Windows Store</a>.</p>
 
 <p>We have added a new reading mode, Two pages, first page is Cover .</p>
 
@@ -601,7 +601,7 @@ As a universal app, if you already unlocked Cover on your Windows 8 devices, the
 
 <p>We also made lots of improvements to the app including better snapped views, better rendering of PDF files.</p>
 
-<p>Cover is the best comics reader available on Windows 8, and we’d like to keep it that way, so if you have ideas or feedback, do not hesitate to contact us on <a href="http://www.twitter.com/frenchfry">Twitter</a>, <a href="http://www.facebook.com/frenchfrysoftware">Facebook</a> or by <a href="mailto:coverfrenchfrysoftware.com">email</a>!</p>
+<p>Cover is the best comics reader available on Windows 8, and we’d like to keep it that way, so if you have ideas or feedback, do not hesitate to contact us on <a href="https://www.twitter.com/frenchfry">Twitter</a>, <a href="https://www.facebook.com/frenchfrysoftware">Facebook</a> or by <a href="mailto:coverfrenchfrysoftware.com">email</a>!</p>
   </section>
 </article>
 <article>
@@ -613,7 +613,7 @@ As a universal app, if you already unlocked Cover on your Windows 8 devices, the
   <section class="article_content">
     <p>Microsoft dropped support for Windows XP on April 8, 2014. It has been 12 years since Microsoft first released Windows XP, and we’ve seen the release of 4 new major version since then.</p>
 
-<p>As of today, Windows XP is still a major OS, with <a href="http://www.netmarketshare.com/operating-system-market-share.aspx?qprid=10&amp;qpcustomd=0&amp;qpsp=2014&amp;qpnp=1&amp;qptimeframe=Y">more than 27%</a> of the Operating System market share, therefore dropping support for it is a big decision.</p>
+<p>As of today, Windows XP is still a major OS, with <a href="https://www.netmarketshare.com/operating-system-market-share.aspx?qprid=10&amp;qpcustomd=0&amp;qpsp=2014&amp;qpnp=1&amp;qptimeframe=Y">more than 27%</a> of the Operating System market share, therefore dropping support for it is a big decision.</p>
 
 <p>Steed will follow this trend, and drop Windows XP and Vista. Therefore, the next version (1.1) will contain new features that will only works on Windows 7 and above. However, there is a number of fixes that we wanted all of our users to get. So this version will be the last one available for Windows XP and Vista.</p>
 
@@ -632,11 +632,11 @@ You will now be able to filter your comics by unread, currently reading or recen
 
 <iframe class="vine-embed" frameborder="0" height="800" src="https://vine.co/v/Mr1lIUeiPb6/embed/simple" width="100%"></iframe>
 
-<script charset="utf-8" src="//platform.vine.co/static/scripts/embed.js" type="text/javascript"></script>
+<script charset="utf-8" src="https://platform.vine.co/static/scripts/embed.js" type="text/javascript"></script>
 
 <p>An other requested feature made it to this update. Your comics are now sorted by title instead of being sorted by last added. And we though about those of you who liked it that way, you can use the Smart Views to see which comics have been recently added.</p>
 
-<p>We would like again to thank you for the amazing feedback and support. We have more ideas and features planned for Cover, in the meantime, we’d love to ear what you’d like to see in Cover so we can make it even better. Contact us on <a href="http://www.twitter.com/frenchfry">Twitter</a>, <a href="http://www.facebook.com/frenchfrysoftware">Facebook</a> or by <a href="mailto:coverfrenchfrysoftware.com">email</a>!</p>
+<p>We would like again to thank you for the amazing feedback and support. We have more ideas and features planned for Cover, in the meantime, we’d love to ear what you’d like to see in Cover so we can make it even better. Contact us on <a href="https://www.twitter.com/frenchfry">Twitter</a>, <a href="https://www.facebook.com/frenchfrysoftware">Facebook</a> or by <a href="mailto:coverfrenchfrysoftware.com">email</a>!</p>
   </section>
 </article>
 <article>
@@ -674,7 +674,7 @@ You will now be able to filter your comics by unread, currently reading or recen
 
 <p>We’ve also made the search more accessible on Windows 8.1 so you can access it easily from the library. You can manage your library by selecting books and folders and changing read status directly from the library.</p>
 
-<p>Cover 1.1.187 contains all this new features, and is available as a free update on the <a href="http://apps.microsoft.com/windows/en-us/app/cover/189c45c1-9c90-42c0-8374-9f2e4c9eddef">Windows Store</a>.</p>
+<p>Cover 1.1.187 contains all this new features, and is available as a free update on the <a href="https://apps.microsoft.com/windows/en-us/app/cover/189c45c1-9c90-42c0-8374-9f2e4c9eddef">Windows Store</a>.</p>
   </section>
 </article>
 <article>
@@ -690,7 +690,7 @@ You will now be able to filter your comics by unread, currently reading or recen
 
 <p>It has been a passionate work during this period, we had to make decision, to choose what feature to add, or remove, what should be our priority. And we argued, and argued, and argued. And finally, we made it.</p>
 
-<p>So we can now proudly announce that <a href="http://www.frenchfrysoftware.com/steed">Steed</a> is available for sale.</p>
+<p>So we can now proudly announce that <a href="https://www.frenchfrysoftware.com/steed">Steed</a> is available for sale.</p>
 
 <p>Everybody does that, but it’s true, so we would like to thank everyone who supported us during this period. It wouldn’t have been the same without them.</p>
 
@@ -710,9 +710,9 @@ You will now be able to filter your comics by unread, currently reading or recen
 
 <p>Since the launch of the first beta we got a lot of feedbacks and thanks to you this allowed us to improve Steed a lot.</p>
 
-<p>You’ve contacted us via our <a href="https://twitter.com/frenchfry">Twitter account</a>, our <a href="http://www.facebook.com/frenchfrysoftware">Facebook page</a>, or by using our <a href="http://www.frenchfrysoftware.com/support">feedback form</a>. But we thought there might be a better way to interact with you. A way that could allow everyone to keep in touch with us, a way that could allow you to keep in touch with the other Steed’s users.</p>
+<p>You’ve contacted us via our <a href="https://twitter.com/frenchfry">Twitter account</a>, our <a href="https://www.facebook.com/frenchfrysoftware">Facebook page</a>, or by using our <a href="https://www.frenchfrysoftware.com/support">feedback form</a>. But we thought there might be a better way to interact with you. A way that could allow everyone to keep in touch with us, a way that could allow you to keep in touch with the other Steed’s users.</p>
 
-<p>That’s why today we are launching our new <a href="http://community.frenchfrysoftware.com/">community forums</a>.</p>
+<p>That’s why today we are launching our new <a href="https://community.frenchfrysoftware.com/">community forums</a>.</p>
 
 <p>You can use these forums to report bugs or errors that happens using Steed, you can ask for features, or discuss about Steed.</p>
 
@@ -735,13 +735,13 @@ You will now be able to filter your comics by unread, currently reading or recen
 <p>Steed is a client for browsing and transferring files and folders across multiple protocols : FTP, SFTP, Amazon S3 and Microsoft Azure.
 It is designed to provide consistency over multiple standalone clients, and improve user experience through a thoughtful design.</p>
 
-<p>Using Steed during the beta is totally free, you may download it right away from the <a href="http://www.frenchfrysoftware.com/steed">application page</a>.
+<p>Using Steed during the beta is totally free, you may download it right away from the <a href="https://www.frenchfrysoftware.com/steed">application page</a>.
 You will need Windows XP SP3, Vista or 7. The latter provides the best user experience.
 Don’t forget to check the auto-update, as each version of the beta is limited in time (30 days) to ensure that you have the latest fixes and features.</p>
 
 <p>To help you getting started, you will be able to import directly your bookmarks from other software (Filezilla, Cyberduck,  FlashFXP, WinSCP) and use them with Steed. If you have to install it on several computers, synchronize them with your Dropbox or SkyDrive account.</p>
 
-<p>Enjoy it, and please feel free to provide us some feedback on the <a href="http://www.frenchfrysoftware.com/support">support page</a> or <a href="http://twitter.com/frenchfry">twitter</a>, it will be very helpful to help improve the application until final release. And if there are some features you would like to see, don’t hesitate to share them with us !</p>
+<p>Enjoy it, and please feel free to provide us some feedback on the <a href="https://www.frenchfrysoftware.com/support">support page</a> or <a href="https://twitter.com/frenchfry">twitter</a>, it will be very helpful to help improve the application until final release. And if there are some features you would like to see, don’t hesitate to share them with us !</p>
 
 <p>The French Fry team</p>
   </section>
@@ -751,12 +751,12 @@ Don’t forget to check the auto-update, as each version of the beta is limited 
 <footer>
 
 	<div class="contact">
-		<a href="http://www.facebook.com/frenchfrysoftware"><div class="sprites_icon sprite-facebook"></div> Like us on Facebook</a>
+		<a href="https://www.facebook.com/frenchfrysoftware"><div class="sprites_icon sprite-facebook"></div> Like us on Facebook</a>
 		<a href="https://twitter.com/frenchfry"><div class="sprites_icon sprite-twitter"></div> Follow us on Twitter</a>
 		<a href="mailto:info@frenchfrysoftware.com"><div class="sprites_icon sprite-email-16"></div> Contact us by email</a>
 	</div>
 </footer>
-  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
     
     
   </body>
