@@ -1,6 +1,12 @@
 {
   "release":[
     {
+      "version":"3.7.3",
+      "sub_version":"Windows & Windows Phone",
+      "date":"2021-07-14",
+      "notes":"Fixed auto hiding cursor when reading\r\nFixed and/or removed obsolete features"
+    },
+    {
       "version":"3.7.2",
       "sub_version":"Windows & Windows Phone",
       "date":"2021-05-11",
