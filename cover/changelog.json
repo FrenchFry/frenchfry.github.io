@@ -1,6 +1,12 @@
 {
   "release":[
     {
+      "version":"3.8.0",
+      "sub_version":"Windows & Windows Phone",
+      "date":"2021-09-17",
+      "notes":"Now supporting RAR5 archives"
+    },
+    {
       "version":"3.7.3",
       "sub_version":"Windows & Windows Phone",
       "date":"2021-07-14",
