@@ -1,6 +1,12 @@
 {
   "release":[
     {
+      "version":"3.8.1",
+      "sub_version":"Windows & Windows Phone",
+      "date":"2021-09-23",
+      "notes":"Supporting wrongly named file (for instance, zip files named as cbr)\r\nBugfix on getting first page in book for thumb/background\r\nCleaning thumbnails when books are removed"
+    },
+    {
       "version":"3.8.0",
       "sub_version":"Windows & Windows Phone",
       "date":"2021-09-17",
