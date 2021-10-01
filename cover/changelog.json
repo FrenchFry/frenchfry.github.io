@@ -1,6 +1,12 @@
 {
   "release":[
     {
+      "version":"3.8.2",
+      "sub_version":"Windows & Windows Phone",
+      "date":"2021-10-02",
+      "notes":"Added a menu entry to regenerate thumbnails manually\r\nDisplay the comic book count for all storage types (not just internal storage)\r\nAdded reading status on folder\r\nImprovements on fullscreen toggle for tablet and PC modes\r\nLots of tiny UI and UX fixes"
+    },
+    {
       "version":"3.8.1",
       "sub_version":"Windows & Windows Phone",
       "date":"2021-09-23",
