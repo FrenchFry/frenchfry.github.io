@@ -1,6 +1,12 @@
 {
   "release":[
     {
+      "version":"3.8.3",
+      "sub_version":"Windows & Windows Phone",
+      "date":"2021-10-30",
+      "notes":"Now supporting password protected files (all formats except RAR5)\r\nFixed flickering issue in maximized mode\r\nFixed cursor sometimes not showing when leaving read screen\r\nAdded URI commands (ie cover-comics://start)"
+    },
+    {
       "version":"3.8.2",
       "sub_version":"Windows & Windows Phone",
       "date":"2021-10-02",
