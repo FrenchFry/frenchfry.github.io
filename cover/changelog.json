@@ -1,6 +1,12 @@
 {
   "release":[
     {
+      "version":"3.8.4",
+      "sub_version":"Windows & Windows Phone",
+      "date":"2022-03-18",
+      "notes":"Added continuous vertical scroll read mode\r\nImproved search\r\nImproved keyboard navigation\r\nFixed bugs (fixed order of numbered pages / Improved CBR compatibility)"
+    },
+    {
       "version":"3.8.3",
       "sub_version":"Windows & Windows Phone",
       "date":"2021-10-30",
