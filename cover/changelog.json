@@ -1,6 +1,12 @@
 {
   "release":[
     {
+      "version":"3.8.5",
+      "sub_version":"Windows & Windows Phone",
+      "date":"2022-04-29",
+      "notes":"Added pull-to-next/prev-book gesture\r\nAdded Polish language, thanks to Rafal W.\r\nAdded mouse scroll and pan on page\r\nImproved back button in fullscreen mode, Added Ctrl+PgUp/PgDn to go to prev/next book, repaired prev/next page keyboard shortcuts"
+    },
+    {
       "version":"3.8.4",
       "sub_version":"Windows & Windows Phone",
       "date":"2022-03-18",
