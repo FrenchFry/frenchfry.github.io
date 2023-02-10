@@ -26,6 +26,59 @@
 </div>
 </header>
 <div class="mojo">We create cutting-edge software.</div></div> <!-- end of .header_background -->  
+
+<article>
+  <header class="article_header">
+    <h1 class="article_title" id="customizing-thumbnails-and-backgrounds">Customizing thumbnails and backgrounds</h1>
+    <div class="article_date">Feb 10, 2023 by Jerome</div>
+  </header>
+  <section class="article_content">
+    <p>
+      Cover uses thumbnails to show as tiles in its library views, as well as subtle backgrounds with a black overlay behind these tiles, to make your library as beautiful as possible.
+      Today I'll explain how that works and how you can customize Cover's behavior.
+    </p>
+    <img src="./img/2023-02-10/ss1.png" alt="Cover thumbnails and backgrounds">
+    <p>
+      By default, once you add comic books to your library, Cover will start generating thumbnails. For most comic book formats, generating a thumbnail implies opening the whole file, and decompressing part of it to extract the first page. So to avoid being a resource hog, it will only generate necessary thumbnails (which are: Only the books currently shown, or the first book of each shelf currently shown).
+    </p>
+    <p>
+      There's one <strong>big limitation</strong>: Cover can't display thumbnails for cloud storage files, unless it downloads the complete file first. That would be very long and consume a lot of bandwidth, so as a design choice, Cover won't try to generate thumbnails if the files are stored in the cloud. There is a solution - keep reading :)
+    </p>
+    <img src="./img/2023-02-10/ss2.png" alt="Cloud storage folders won't display thumbnails">
+    <p>
+      The <strong>first</strong> book in each shelf will be used as the thumbnail for this shelf. However, a random book will be used automatically as the background for the shelf.<br/>
+    </p>
+    <h3>Customizing the thumbnail and background</h3>
+    <p>
+      You can change this behavior! Just right click on any item, then click "Set as background". That will indicate Cover to use this book as thumbnail <strong>and</strong> background.
+    </p>
+    <img src="./img/2023-02-10/ss3.png" alt="Set as background">
+    <p>
+      If you want to rollback on this, just click on the "..." and select "Unset background". That will revert to Cover automatic behavior explained above.
+    </p>
+    <img src="./img/2023-02-10/ss4.png" alt="Unset background">
+    <h3>The folder.jpg trick</h3>
+    <p>
+      If you'd rather have another image used as thumbnail, Cover now supports the <strong>folder.jpg</strong> trick. Just like Windows does (or used to do as it seems deprecated in W11), just drop a file named folder.jpg (or folder.jpeg, case-insensitive) in a folder and Cover will automatically use that as thumbnail.
+      It will still pick and show a random book as background though.
+    </p>
+    <p>
+      Good news is, <strong>it will work with cloud storage as well</strong>! You can finally have thumbnails with your cloud storage libraries.
+    </p>
+    <p>
+      Please note, folder.jpg won't be used if you specified a custom item to use as background as described above. It will only be used when the shelf background is set to automatic. 
+    </p>
+    <h3>Re-generate a thumbnail</h3>
+    <p>
+      If you start messing with the thumbnails (for example you update the first page of a book, or you edit the folder.jpg file directly), you'll need to tell Cover that a thumbnail has changed because for performance reasons, it will not check this everytime for every item, when you display the library.
+    </p>
+    <p>
+      This is pretty easy: Select the items you want to update, and click "Regenerate thumbnails".
+    </p>
+    <img src="./img/2023-02-10/ss5.png" alt="Regenerate thumbnails">
+  </section>
+</article>
+
   	<article>
   <header class="article_header">
     <h1 class="article_title" id="designing-for-uwp">Designing for Windows 10 UWP from a Windows 8 app</h1>

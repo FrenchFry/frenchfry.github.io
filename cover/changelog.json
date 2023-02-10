@@ -1,6 +1,18 @@
 {
   "release":[
     {
+      "version":"3.8.7",
+      "sub_version":"Windows & Windows Phone",
+      "date":"2023-02-10",
+      "notes":"Fixed bugs (blurry PDF files, folder.jpg issues, back button behavior,..)"
+    },
+    {
+      "version":"3.8.6",
+      "sub_version":"Windows & Windows Phone",
+      "date":"2023-01-26",
+      "notes":"Supporting folder.jpg\r\nAllowing user to change app language\r\nImproving high res image rendering\r\nFixed bugs"
+    },
+    {
       "version":"3.8.5",
       "sub_version":"Windows & Windows Phone",
       "date":"2022-04-29",
