@@ -1,6 +1,12 @@
 {
   "release":[
     {
+      "version":"3.9.0",
+      "sub_version":"Windows & Windows Phone",
+      "date":"2023-05-09",
+      "notes":"Fixed blurry image rendering\r\nAdded selector for performance/quality\r\nAdded error logging, check logs out in Settings/About\r\nBugfixes"
+    },
+    {
       "version":"3.8.7",
       "sub_version":"Windows & Windows Phone",
       "date":"2023-02-10",
