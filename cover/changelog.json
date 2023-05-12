@@ -1,6 +1,12 @@
 {
   "release":[
     {
+      "version":"3.9.1",
+      "sub_version":"Windows & Windows Phone",
+      "date":"2023-05-09",
+      "notes":"Fixed blurry pages for high density screen\r\nAdded ARM64 compatibility"
+    },
+    {
       "version":"3.9.0",
       "sub_version":"Windows & Windows Phone",
       "date":"2023-05-09",
