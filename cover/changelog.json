@@ -1,5 +1,11 @@
 {
   "release":[
+	{
+      "version":"3.9.3",
+      "sub_version":"Windows & Windows Phone",
+      "date":"2023-06-19",
+      "notes":"Fixed a bug that wipes library on startup for some users"
+    },
     {
       "version":"3.9.2",
       "sub_version":"Windows & Windows Phone",
