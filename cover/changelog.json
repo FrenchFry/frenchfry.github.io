@@ -1,5 +1,11 @@
 {
   "release":[
+   { 
+      "version":"3.10.2", 
+      "sub_version":"Windows & Windows Phone", 
+      "date":"2023-08-22", 
+      "notes":"Fixed bug with book loading forever\r\nUpdated Settings/About page"
+    }, 
     { 
       "version":"3.10.1", 
       "sub_version":"Windows & Windows Phone", 
