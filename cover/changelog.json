@@ -1,6 +1,12 @@
 {
   "release":[
    { 
+      "version":"3.11.1", 
+      "sub_version":"Windows & Windows Phone", 
+      "date":"2023-10-16", 
+      "notes":"Fixed page order for some archives\r\nFixed crashes"
+    }, 
+   { 
       "version":"3.11.0", 
       "sub_version":"Windows & Windows Phone", 
       "date":"2023-09-23", 
