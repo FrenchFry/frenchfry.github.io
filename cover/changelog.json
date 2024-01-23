@@ -1,6 +1,12 @@
 {
   "release":[
    { 
+      "version":"3.12.2", 
+      "sub_version":"Windows & Windows Phone", 
+      "date":"2024-01-23", 
+      "notes":"Changed cloud storage UX"
+    },
+   { 
       "version":"3.12.1", 
       "sub_version":"Windows & Windows Phone", 
       "date":"2023-12-09", 
