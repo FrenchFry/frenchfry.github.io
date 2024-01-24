@@ -35,7 +35,9 @@
 		<p>Limited technical information is sent (such as IP addresses included in the HTTP calls the application makes) but none of that is used or stored. Non-identifiable information (such as OS version, language settings) is sent to Microsoft AppCenter in the form of crash reports. Non-identifiable information is sent to StatHat in the form of usage statistics (purchase attempts/success,..).</p>
 
 		<h2>2. Cloud Storage</h2>
-		<p>The application securely connects to cloud storage services (OneDrive™, Google Drive™, Dropbox™) to provide you with access to your comic book collection. The app only requests readonly access to your cloud storage, ensuring that no modifications or deletions are made to your files.</p>
+		<p>The application securely connects to cloud storage services (OneDrive™, Google Drive™, Dropbox™) to provide you with access to your comic book collection. The app only requests readonly access to your cloud storage, ensuring that no modifications or deletions are made to your files.<br/>
+		For this purpose, Cover stores a short-lived access-token and a long-lived refresh token that lets it access or renew access to your cloud storage account. These tokens are stored locally and only there, secured by the Windows credentials manager, and the user is free to remove this token at any time from the app or from Windows credentials. It is used for the sole purpose of connecting the user to the cloud storage.
+		</p>
 
 		<h2>3. Third-Party Services</h2>
 		<p>The "Cover" application may use third-party services for analytics or other functionalities. These services may have their own privacy policies. We encourage you to review the privacy policies of these third-party services.</p>
