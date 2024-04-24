@@ -198,7 +198,7 @@
 <li><p>Management in shelves</p></li>
 <li><p>Add folders or open standalone files</p></li>
 <li><p>Access OneDrive or Dropbox file (and keep them synced)</p></li>
-<li><p>Large file type support: CBZ/ZIP, CBR/RAR, 7Z/CBZ, EPUB, PDF, JPG, PNG, GIF, BMP, WEBP</p></li>
+<li><p>Large file type support: CBZ/ZIP, CBR/RAR, 7Z/CBZ, EPUB (images only), PDF, JPG, PNG, GIF, BMP, WEBP</p></li>
 <li><p>Reading status synchronization between devices (For paid users)</p></li>
 </ul>
 
@@ -220,7 +220,7 @@
   <section class="article_content">
     <p>Perhaps the most important feature of a good, popular comic book reader, is the ability to open all kinds of comic book types. When you have to switch between apps because a file is not compatible, often means you just uninstall these apps.</p>
 
-<p>Cover supports the most widely used formats: CBR, CBZ, CBT, CB7, PDF, EPUB, and image folder; today i'd like to elaborate on what are each format and what tools we use to open and read them. Maybe some of you don't already know all of this!</p>
+<p>Cover supports the most widely used formats: CBR, CBZ, CBT, CB7, PDF, EPUB (images only), and image folder; today i'd like to elaborate on what are each format and what tools we use to open and read them. Maybe some of you don't already know all of this!</p>
 
 <p>First, you have to know that all of these formats are just containers for a collection of images.</p>
 
@@ -239,7 +239,7 @@
 <li><p>CBZ: Stands for Comic Book Zip, it means all the images have been compressed in an archive using the <a href="https://en.wikipedia.org/wiki/Zip_(file_format)">ZIP compression algorithm</a>. JPEG being already compressed, another compression offers virtually no improvement on file size but it's used to package all images in a single file.</p></li>
 <li><p>CBR/CBT/CB7: The same as CBZ, except the compression algorithm is different, it can be <a href="https://en.wikipedia.org/wiki/RAR_(file_format)">RAR</a>, <a href="https://en.wikipedia.org/wiki/Tar_(computing)">TAR (doesn't compress, just stores)</a> or <a href="https://en.wikipedia.org/wiki/7-Zip">7-ZIP</a>. Each have their strengths and weaknesses that can influence heavily on performance or memory consumption when opening files. Thankfully in Cover we didn't have to implement extractors for all these file formats, we just used a great library: <a href="https://sharpcompress.codeplex.com/">SharpCompress</a>.</p></li>
 <li><p>PDF: This <a href="https://fr.wikipedia.org/wiki/Portable_Document_Format">well-known format</a> embeds inside itself all the images it references. So if you look closely in the file bytes, you can find the bytes of each image it contains. PDF is a very powerful document renderer (the specification is several thousands pages), but for comic book readers we just need to render images, so <a href="https://msdn.microsoft.com/en-us/library/windows.data.pdf.aspx">the basic tools provided by Windows</a> are sufficient for Cover to display them properly.</p></li>
-<li><p>EPUB: Initially designed to represent textual e-books, it can handle images as well. <a href="https://en.wikipedia.org/wiki/EPUB">It is free and open-source</a> and it's basically a zip containing structured information on how to display a book. Formatting is HTML that can reference resource images. In Cover, since we only wanted to handle images in epub files (we don't have controls to change font size, line height,..), we just implemented our own basic reader that extracts the images and considers each image is a page.</p></li>
+<li><p>EPUB: Initially designed to represent textual e-books, it can handle images as well. <a href="https://en.wikipedia.org/wiki/EPUB">It is free and open-source</a> and it's basically a zip containing structured information on how to display a book. Formatting is HTML that can reference resource images. In Cover, since we only wanted to handle images in epub files (we don't have controls to change font size, line height,..), we just implemented our own basic reader that extracts the images and considers each image is a page. Therefore Cover can't display text that's contained in epub files, only images.</p></li>
 </ul>
 
 <p>I hope you'll have learned something by reading this. Feel free to open your comic book archives using a tool such as <a href="https://www.7-zip.org/">7-ZIP</a> to check out how they work or extract some pages to make a nice desktop background. You can also create your own comic books very easily.</p>
