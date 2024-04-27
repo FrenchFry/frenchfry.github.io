@@ -1,5 +1,10 @@
 {
-  "release":[
+  "release":[{ 
+      "version":"3.13.0", 
+      "sub_version":"Windows & Windows Phone",
+      "date":"2024-04-25", 
+      "notes":"Updated navigation performance especially on large libraries\r\nImproved webp support\r\nImprove online/offline management for files on local network"
+    },
    { 
       "version":"3.12.2", 
       "sub_version":"Windows & Windows Phone", 
