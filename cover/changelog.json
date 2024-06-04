@@ -1,5 +1,10 @@
 {
   "release":[{ 
+      "version":"3.13.1", 
+      "sub_version":"Windows & Windows Phone",
+      "date":"2024-06-04", 
+      "notes":"Supporting GDrive granular consent\r\nUpdating zip/rar library"
+   },{ 
       "version":"3.13.0", 
       "sub_version":"Windows & Windows Phone",
       "date":"2024-04-25", 
