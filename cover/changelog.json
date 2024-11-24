@@ -1,5 +1,10 @@
 {
   "release":[{ 
+      "version":"3.13.2", 
+      "sub_version":"Windows & Windows Phone",
+      "date":"2024-12-24", 
+      "notes":"Prevent app crash with huge PDF files (still can't open them though, other fix needed)"
+   },{ 
       "version":"3.13.1", 
       "sub_version":"Windows & Windows Phone",
       "date":"2024-06-04", 
