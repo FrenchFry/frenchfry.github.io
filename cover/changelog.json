@@ -1,9 +1,14 @@
 {
   "release":[{ 
-      "version":"3.13.2", 
+      "version":"3.14.0", 
       "sub_version":"Windows & Windows Phone",
-      "date":"2024-12-24", 
-      "notes":"Prevent app crash with huge PDF files (still can't open them though, other fix needed)"
+      "date":"2025-08-27", 
+      "notes":"Improved reading performance in most scenarios (all but 2 pages + smart mode)\r\nFixed issue with JFIF files in archive\r\nUpdated PDf and rar/zip libraries (some books that failed to open now may)"
+   },{ 
+      "version":"3.13.3", 
+      "sub_version":"Windows & Windows Phone",
+      "date":"2025-02-23", 
+      "notes":"Fixed rar issue\r\nFixed circular progressbar\r\n"
    },{ 
       "version":"3.13.1", 
       "sub_version":"Windows & Windows Phone",
