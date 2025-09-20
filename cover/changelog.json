@@ -1,5 +1,10 @@
 {
   "release":[{ 
+      "version":"3.14.1", 
+      "sub_version":"Windows & Windows Phone",
+      "date":"2025-09-20", 
+      "notes":"Fixed continuous scroll mode sometimes doesn't read last page\r\nFixed circular progress bar in continuous scroll mode\r\nFixed natural sort order issues\r\nFixed detection of the first page when it's named cover.jpg or similar"
+   },{ 
       "version":"3.14.0", 
       "sub_version":"Windows & Windows Phone",
       "date":"2025-08-27", 
