@@ -1,5 +1,10 @@
 {
   "release":[{ 
+      "version":"3.15.0", 
+      "sub_version":"Windows & Windows Phone",
+      "date":"2025-09-26", 
+      "notes":"Added bookmarks feature"
+   },{ 
       "version":"3.14.1", 
       "sub_version":"Windows & Windows Phone",
       "date":"2025-09-20", 
