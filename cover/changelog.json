@@ -1,5 +1,10 @@
 {
-  "release":[{ 
+  "release":[{  
+      "version":"3.15.3", 
+      "sub_version":"Windows & Windows Phone", 
+      "date":"2026-05-12", 
+      "notes":"Added sorting options\r\nImproved epub compatibility (still no text epub support though)\r\nImproved detection of page border\r\nBugfixes: Better handling of Windows UI scaling; Fixed back button behavior when changing smartview; Improved sorting in some languages (please let me know if something seems off); Better error messages and logs when paths are too long" 
+   },{ 
       "version":"3.15.2",
       "sub_version":"Windows & Windows Phone",
       "date":"2025-10-28",
