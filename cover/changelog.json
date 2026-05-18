@@ -1,5 +1,10 @@
 {
   "release":[{  
+      "version":"3.15.4", 
+      "sub_version":"Windows & Windows Phone", 
+      "date":"2026-05-18", 
+      "notes":"Fixed currently reading view"
+   },{  
       "version":"3.15.3", 
       "sub_version":"Windows & Windows Phone", 
       "date":"2026-05-12", 
